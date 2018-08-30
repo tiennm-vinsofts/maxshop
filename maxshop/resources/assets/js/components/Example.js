@@ -5,7 +5,7 @@ export default class Example extends Component {
     render() {
         return (
             <div className="container">
-               kldhfgdhg
+               example
             </div>
         );
     }
