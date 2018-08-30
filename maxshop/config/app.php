@@ -151,6 +151,14 @@ return [
          * Package Service Providers...
          */
 
+        Collective\Html\HtmlServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+        \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
+        \InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
+        \InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
+        Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
@@ -209,6 +217,11 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'Form'      => Collective\Html\FormFacade::class,
+        'Html'      => Collective\Html\HtmlFacade::class,
+        'Flash'     => Laracasts\Flash\Flash::class,
+        'JWTAuth'   => Tymon\JWTAuth\Facades\JWTAuth::class,
+        'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
     ],
 
 ];
