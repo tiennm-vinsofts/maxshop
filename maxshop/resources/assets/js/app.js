@@ -13,5 +13,6 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Header');
+// require('./components/Header');
+require('./components');
 

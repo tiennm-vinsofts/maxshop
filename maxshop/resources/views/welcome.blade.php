@@ -41,7 +41,7 @@
     </head>
     <body>
         <div id="example"></div>
-        <div id="header"></div>
+        <!-- <div id="header"></div> -->
 
 
         <script type="text/javascript" src="{{asset('js/app.js')}}"></script>

@@ -14112,7 +14112,8 @@ __webpack_require__(19);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-__webpack_require__(63);
+// require('./components/Header');
+__webpack_require__(66);
 
 /***/ }),
 /* 19 */
@@ -36345,7 +36346,354 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 43 */,
+/* 43 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Navbar__ = __webpack_require__(63);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var Header = function (_Component) {
+  _inherits(Header, _Component);
+
+  function Header() {
+    _classCallCheck(this, Header);
+
+    return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+  }
+
+  _createClass(Header, [{
+    key: 'render',
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'header',
+        { className: 'header-section header-section-1 container-fluid no-padding' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'top-header top-header1 container-fluid no-padding' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'container' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'col-md-7 col-sm-7 col-xs-7 dropdown-bar' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h5',
+                null,
+                'Welcome To Max Shop'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'language-dropdown dropdown' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'button',
+                  { 'aria-expanded': 'true', 'aria-haspopup': 'true', 'data-toggle': 'dropdown', title: 'languages', id: 'language', type: 'button', className: 'btn dropdown-toggle' },
+                  'English ',
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'caret' })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'ul',
+                  { className: 'dropdown-menu no-padding' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { title: 'Danish', href: '#' },
+                      'Danish'
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { title: 'German', href: '#' },
+                      'German'
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { title: 'French', href: '#' },
+                      'French'
+                    )
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'language-dropdown dropdown' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'button',
+                  { 'aria-expanded': 'true', 'aria-haspopup': 'true', 'data-toggle': 'dropdown', title: 'currency', id: 'currency', type: 'button', className: 'btn dropdown-toggle' },
+                  'US Dollar',
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'caret' })
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'ul',
+                  { className: 'dropdown-menu no-padding' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { title: 'Danish', href: '#' },
+                      'Usd'
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { title: 'German', href: '#' },
+                      'Ora'
+                    )
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { title: 'French', href: '#' },
+                      'Riyal'
+                    )
+                  )
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'col-md-5 col-sm-5 col-xs-5 header-social' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'ul',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#', title: 'Facebook' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook' })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#', title: 'Twitter' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter' })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#', title: 'Linkedin' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-linkedin' })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#', title: 'Tumblr' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-tumblr' })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#', title: 'Vimeo' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-vimeo' })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#', title: 'Pinterest' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-pinterest-p' })
+                  )
+                )
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'middel-header' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'container' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'col-md-4 col-sm-6 col-xs-12 logo-block' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { href: 'index.html', className: 'navbar-brand' },
+                'Max ',
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  null,
+                  'shop'
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'col-md-5 col-sm-6 col-xs-6 search-block' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'input-group' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { className: 'form-control', placeholder: 'Search You Wants Here . . .', type: 'text' }),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'input-group-btn' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'button',
+                    { className: 'btn btn-default', type: 'button' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-Search' })
+                  )
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'col-md-3 col-sm-6 col-xs-6 menu-icon' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'ul',
+                { className: 'cart' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { 'aria-expanded': 'true', 'aria-haspopup': 'true', 'data-toggle': 'dropdown', id: 'cart', className: 'btn dropdown-toggle', title: 'Add To Cart', href: '#' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-ShoppingCart' })
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'ul',
+                    { className: 'dropdown-menu no-padding' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      { className: 'mini_cart_item' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'a',
+                        { title: 'Remove this item', className: 'remove', href: '#' },
+                        '\xD7'
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'a',
+                        { href: '#', className: 'shop-thumbnail' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { alt: 'poster_2_up', className: 'attachment-shop_thumbnail', src: 'images/product-wishlist-1.jpg' }),
+                        'Flying Ninja'
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { className: 'quantity' },
+                        '2 \xD7 ',
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'span',
+                          { className: 'amount' },
+                          'Rs.12.00'
+                        )
+                      )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      { className: 'mini_cart_item' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'a',
+                        { title: 'Remove this item', className: 'remove', href: '#' },
+                        '\xD7'
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'a',
+                        { href: '#', className: 'shop-thumbnail' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { alt: 'poster_2_up', className: 'attachment-shop_thumbnail', src: 'images/product-wishlist-2.jpg' }),
+                        'Flying Ninja'
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        { className: 'quantity' },
+                        '2 \xD7 ',
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'span',
+                          { className: 'amount' },
+                          'Rs.12.00'
+                        )
+                      )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      { className: 'button' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'a',
+                        { href: '#', title: 'View Cart' },
+                        'View Cart'
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'a',
+                        { href: '#', title: 'Check Out' },
+                        'Check out'
+                      )
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#', title: 'Like' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-Heart' })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'li',
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: '#', title: 'User' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-User' })
+                  )
+                )
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Navbar__["a" /* default */], null)
+      );
+    }
+  }]);
+
+  return Header;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (Header);
+
+/***/ }),
 /* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -55762,11 +56110,220 @@ module.exports = camelize;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var Navbar = function (_Component) {
+  _inherits(Navbar, _Component);
+
+  function Navbar() {
+    _classCallCheck(this, Navbar);
+
+    return _possibleConstructorReturn(this, (Navbar.__proto__ || Object.getPrototypeOf(Navbar)).apply(this, arguments));
+  }
+
+  _createClass(Navbar, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "container-fluid no-padding menu-block" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "container" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "nav",
+            { className: "navbar navbar-default ow-navigation" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "navbar-header" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "button",
+                { "aria-controls": "navbar", "aria-expanded": "false", "data-target": "#navbar", "data-toggle": "collapse", className: "navbar-toggle collapsed", type: "button" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "span",
+                  { className: "sr-only" },
+                  "Toggle navigation"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-bar" }),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-bar" }),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "icon-bar" })
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "a",
+                { href: "index.html", className: "navbar-brand" },
+                "Max ",
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "span",
+                  null,
+                  "shop"
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "navbar-collapse collapse", id: "navbar" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "ul",
+                { className: "nav navbar-nav" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "li",
+                  { className: "active dropdown" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "#", title: "Home", className: "dropdown-toggle", role: "button", "aria-haspopup": "true", "aria-expanded": "false" },
+                    "Home"
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "li",
+                  { className: "dropdown" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "#", title: "Home", className: "dropdown-toggle", role: "button", "aria-haspopup": "true", "aria-expanded": "false" },
+                    "Categories "
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "ddl-switch fa fa-angle-down" }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "ul",
+                    { className: "dropdown-menu" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "li",
+                      null,
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "cart.html", title: "Cart" },
+                        "Cart"
+                      )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "li",
+                      null,
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "checkout.html", title: "Checkout" },
+                        "Checkout"
+                      )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "li",
+                      null,
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "404.html", title: 404 },
+                        "404"
+                      )
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "li",
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "#product-section", title: "Products" },
+                    "Products"
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "li",
+                  { className: "dropdown" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "shop.html", title: "Shop", className: "dropdown-toggle", role: "button", "aria-haspopup": "true", "aria-expanded": "false" },
+                    "Shop"
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "ddl-switch fa fa-angle-down" }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "ul",
+                    { className: "dropdown-menu" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "li",
+                      null,
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "shop-single.html", title: "Shop Single" },
+                        "Shop Single"
+                      )
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "li",
+                  { className: "dropdown" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "blog.html", title: "Blog", className: "dropdown-toggle", role: "button", "aria-haspopup": "true", "aria-expanded": "false" },
+                    "Blog"
+                  ),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "ddl-switch fa fa-angle-down" }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "ul",
+                    { className: "dropdown-menu" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "li",
+                      null,
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "blog-post.html", title: "Blog Post" },
+                        "Blog Post"
+                      )
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "li",
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "about.html", title: "About Us" },
+                    "About Us"
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "li",
+                  null,
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "a",
+                    { href: "contact-us.html", title: "Contact Us" },
+                    "Contact Us"
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Navbar;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (Navbar);
+
+/***/ }),
+/* 64 */,
+/* 65 */,
+/* 66 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Header__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_dom__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -55778,503 +56335,32 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var Header = function (_Component) {
-  _inherits(Header, _Component);
 
-  function Header() {
-    _classCallCheck(this, Header);
+var Index = function (_Component) {
+    _inherits(Index, _Component);
 
-    return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
-  }
+    function Index() {
+        _classCallCheck(this, Index);
 
-  _createClass(Header, [{
-    key: 'render',
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'header',
-        { className: 'header-section header-section-1 container-fluid no-padding' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'top-header top-header1 container-fluid no-padding' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'container' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'col-md-7 col-sm-7 col-xs-7 dropdown-bar' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'h5',
-                null,
-                'Welcome To Max Shop'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'language-dropdown dropdown' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'button',
-                  { 'aria-expanded': 'true', 'aria-haspopup': 'true', 'data-toggle': 'dropdown', title: 'languages', id: 'language', type: 'button', className: 'btn dropdown-toggle' },
-                  'English ',
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'caret' })
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'ul',
-                  { className: 'dropdown-menu no-padding' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { title: 'Danish', href: '#' },
-                      'Danish'
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { title: 'German', href: '#' },
-                      'German'
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { title: 'French', href: '#' },
-                      'French'
-                    )
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'language-dropdown dropdown' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'button',
-                  { 'aria-expanded': 'true', 'aria-haspopup': 'true', 'data-toggle': 'dropdown', title: 'currency', id: 'currency', type: 'button', className: 'btn dropdown-toggle' },
-                  'US Dollar',
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'caret' })
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'ul',
-                  { className: 'dropdown-menu no-padding' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { title: 'Danish', href: '#' },
-                      'Usd'
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { title: 'German', href: '#' },
-                      'Ora'
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { title: 'French', href: '#' },
-                      'Riyal'
-                    )
-                  )
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'col-md-5 col-sm-5 col-xs-5 header-social' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'ul',
-                null,
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'li',
-                  null,
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: '#', title: 'Facebook' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'li',
-                  null,
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: '#', title: 'Twitter' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'li',
-                  null,
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: '#', title: 'Linkedin' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-linkedin' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'li',
-                  null,
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: '#', title: 'Tumblr' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-tumblr' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'li',
-                  null,
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: '#', title: 'Vimeo' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-vimeo' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'li',
-                  null,
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: '#', title: 'Pinterest' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-pinterest-p' })
-                  )
-                )
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'middel-header' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'container' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'col-md-4 col-sm-6 col-xs-12 logo-block' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'a',
-                { href: 'index.html', className: 'navbar-brand' },
-                'Max ',
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'span',
-                  null,
-                  'shop'
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'col-md-5 col-sm-6 col-xs-6 search-block' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'input-group' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { className: 'form-control', placeholder: 'Search You Wants Here . . .', type: 'text' }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'span',
-                  { className: 'input-group-btn' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'button',
-                    { className: 'btn btn-default', type: 'button' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-Search' })
-                  )
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'col-md-3 col-sm-6 col-xs-6 menu-icon' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'ul',
-                { className: 'cart' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'li',
-                  null,
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { 'aria-expanded': 'true', 'aria-haspopup': 'true', 'data-toggle': 'dropdown', id: 'cart', className: 'btn dropdown-toggle', title: 'Add To Cart', href: '#' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-ShoppingCart' })
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'ul',
-                    { className: 'dropdown-menu no-padding' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'li',
-                      { className: 'mini_cart_item' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { title: 'Remove this item', className: 'remove', href: '#' },
-                        '\xD7'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { href: '#', className: 'shop-thumbnail' },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { alt: 'poster_2_up', className: 'attachment-shop_thumbnail', src: 'images/product-wishlist-1.jpg' }),
-                        'Flying Ninja'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'span',
-                        { className: 'quantity' },
-                        '2 \xD7 ',
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'span',
-                          { className: 'amount' },
-                          'Rs.12.00'
-                        )
-                      )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'li',
-                      { className: 'mini_cart_item' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { title: 'Remove this item', className: 'remove', href: '#' },
-                        '\xD7'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { href: '#', className: 'shop-thumbnail' },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { alt: 'poster_2_up', className: 'attachment-shop_thumbnail', src: 'images/product-wishlist-2.jpg' }),
-                        'Flying Ninja'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'span',
-                        { className: 'quantity' },
-                        '2 \xD7 ',
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'span',
-                          { className: 'amount' },
-                          'Rs.12.00'
-                        )
-                      )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'li',
-                      { className: 'button' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { href: '#', title: 'View Cart' },
-                        'View Cart'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { href: '#', title: 'Check Out' },
-                        'Check out'
-                      )
-                    )
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'li',
-                  null,
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: '#', title: 'Like' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-Heart' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'li',
-                  null,
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: '#', title: 'User' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-User' })
-                  )
-                )
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'container-fluid no-padding menu-block' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'container' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'nav',
-              { className: 'navbar navbar-default ow-navigation' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'navbar-header' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'button',
-                  { 'aria-controls': 'navbar', 'aria-expanded': 'false', 'data-target': '#navbar', 'data-toggle': 'collapse', className: 'navbar-toggle collapsed', type: 'button' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
-                    { className: 'sr-only' },
-                    'Toggle navigation'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-bar' }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-bar' }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'icon-bar' })
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'a',
-                  { href: 'index.html', className: 'navbar-brand' },
-                  'Max ',
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
-                    null,
-                    'shop'
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'navbar-collapse collapse', id: 'navbar' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'ul',
-                  { className: 'nav navbar-nav' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    { className: 'active dropdown' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#', title: 'Home', className: 'dropdown-toggle', role: 'button', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
-                      'Home'
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    { className: 'dropdown' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#', title: 'Home', className: 'dropdown-toggle', role: 'button', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
-                      'Categories '
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'ddl-switch fa fa-angle-down' }),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'ul',
-                      { className: 'dropdown-menu' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { href: 'cart.html', title: 'Cart' },
-                          'Cart'
-                        )
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { href: 'checkout.html', title: 'Checkout' },
-                          'Checkout'
-                        )
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { href: '404.html', title: 404 },
-                          '404'
-                        )
-                      )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#product-section', title: 'Products' },
-                      'Products'
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    { className: 'dropdown' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: 'shop.html', title: 'Shop', className: 'dropdown-toggle', role: 'button', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
-                      'Shop'
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'ddl-switch fa fa-angle-down' }),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'ul',
-                      { className: 'dropdown-menu' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { href: 'shop-single.html', title: 'Shop Single' },
-                          'Shop Single'
-                        )
-                      )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    { className: 'dropdown' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: 'blog.html', title: 'Blog', className: 'dropdown-toggle', role: 'button', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
-                      'Blog'
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'ddl-switch fa fa-angle-down' }),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'ul',
-                      { className: 'dropdown-menu' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { href: 'blog-post.html', title: 'Blog Post' },
-                          'Blog Post'
-                        )
-                      )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: 'about.html', title: 'About Us' },
-                      'About Us'
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: 'contact-us.html', title: 'Contact Us' },
-                      'Contact Us'
-                    )
-                  )
-                )
-              )
-            )
-          )
-        )
-      );
+        return _possibleConstructorReturn(this, (Index.__proto__ || Object.getPrototypeOf(Index)).apply(this, arguments));
     }
-  }]);
 
-  return Header;
+    _createClass(Index, [{
+        key: 'render',
+        value: function render() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Header__["a" /* default */], null)
+            );
+        }
+    }]);
+
+    return Index;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Header);
-__WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Header, null), document.getElementById('header'));
+/* harmony default export */ __webpack_exports__["default"] = (Index);
+__WEBPACK_IMPORTED_MODULE_2_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Index, null), document.getElementById('example'));
 
 /***/ })
 /******/ ]);
