@@ -4,6 +4,12 @@ import Cart from '../pages/Categories/Cart';
 import Checkout from '../pages/Categories/Checkout';
 import Error from '../pages/Categories/404';
 import Shop from '../pages/Shop';
+import ShopSingle from '../pages/Shop/ShopSingle';
+import Blog from '../pages/Blog';
+import BlogPost from '../pages/Blog/BlogPost';
+import Contact from '../pages/Contact';
+
+import About from '../pages/About';
 
 
 import ReactDOM from 'react-dom';
