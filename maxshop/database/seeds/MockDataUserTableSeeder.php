@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Order;
 use App\User;
 use Illuminate\Database\Seeder;
 
@@ -12,8 +13,8 @@ class MockDataUserTableSeeder extends Seeder
      */
     public function run()
     {
+        Order::truncate();
         User::truncate();
-
         // Let's make sure everyone has the same password and
         // let's hash it before the loop, or else our seeder
         // will be too slow.
@@ -24,6 +25,6 @@ class MockDataUserTableSeeder extends Seeder
             'password' => bcrypt('1'),
         ]);
 
-        factory(App\User::class,20)->create();
+        factory(App\User::class, 20)->create();
     }
 }
