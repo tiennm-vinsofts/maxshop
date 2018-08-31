@@ -37944,182 +37944,182 @@ var Header = function (_Component) {
   }
 
   _createClass(Header, [{
-    key: 'render',
+    key: "render",
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
+        "div",
         null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { id: 'site-loader', className: 'load-complete' },
+          "div",
+          { id: "site-loader", className: "load-complete" },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'loader' },
+            "div",
+            { className: "loader" },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'loader-inner ball-clip-rotate' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', null)
+              "div",
+              { className: "loader-inner ball-clip-rotate" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null)
             )
           )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'header',
-          { className: 'header-section header-section-1 container-fluid no-padding' },
+          "header",
+          { className: "header-section header-section-1 container-fluid no-padding" },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'top-header top-header1 container-fluid no-padding' },
+            "div",
+            { className: "top-header top-header1 container-fluid no-padding" },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'container' },
+              "div",
+              { className: "container" },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'col-md-7 col-sm-7 col-xs-7 dropdown-bar' },
+                "div",
+                { className: "col-md-7 col-sm-7 col-xs-7 dropdown-bar" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'h5',
+                  "h5",
                   null,
-                  'Welcome To Max Shop'
+                  "Welcome To Max Shop"
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'language-dropdown dropdown' },
+                  "div",
+                  { className: "language-dropdown dropdown" },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'button',
-                    { 'aria-expanded': 'true', 'aria-haspopup': 'true', 'data-toggle': 'dropdown', title: 'languages', id: 'language', type: 'button', className: 'btn dropdown-toggle' },
-                    'English ',
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'caret' })
+                    "button",
+                    { "aria-expanded": "true", "aria-haspopup": "true", "data-toggle": "dropdown", title: "languages", id: "language", type: "button", className: "btn dropdown-toggle" },
+                    "English ",
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "caret" })
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'ul',
-                    { className: 'dropdown-menu no-padding' },
+                    "ul",
+                    { className: "dropdown-menu no-padding" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'li',
+                      "li",
                       null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { title: 'Danish', href: '#' },
-                        'Danish'
+                        "a",
+                        { title: "Danish", href: "#" },
+                        "Danish"
                       )
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'li',
+                      "li",
                       null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { title: 'German', href: '#' },
-                        'German'
+                        "a",
+                        { title: "German", href: "#" },
+                        "German"
                       )
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'li',
+                      "li",
                       null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { title: 'French', href: '#' },
-                        'French'
+                        "a",
+                        { title: "French", href: "#" },
+                        "French"
                       )
                     )
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'language-dropdown dropdown' },
+                  "div",
+                  { className: "language-dropdown dropdown" },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'button',
-                    { 'aria-expanded': 'true', 'aria-haspopup': 'true', 'data-toggle': 'dropdown', title: 'currency', id: 'currency', type: 'button', className: 'btn dropdown-toggle' },
-                    'US Dollar',
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'caret' })
+                    "button",
+                    { "aria-expanded": "true", "aria-haspopup": "true", "data-toggle": "dropdown", title: "currency", id: "currency", type: "button", className: "btn dropdown-toggle" },
+                    "US Dollar",
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "caret" })
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'ul',
-                    { className: 'dropdown-menu no-padding' },
+                    "ul",
+                    { className: "dropdown-menu no-padding" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'li',
+                      "li",
                       null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { title: 'Danish', href: '#' },
-                        'Usd'
+                        "a",
+                        { title: "Danish", href: "#" },
+                        "Usd"
                       )
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'li',
+                      "li",
                       null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { title: 'German', href: '#' },
-                        'Ora'
+                        "a",
+                        { title: "German", href: "#" },
+                        "Ora"
                       )
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'li',
+                      "li",
                       null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { title: 'French', href: '#' },
-                        'Riyal'
+                        "a",
+                        { title: "French", href: "#" },
+                        "Riyal"
                       )
                     )
                   )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'col-md-5 col-sm-5 col-xs-5 header-social' },
+                "div",
+                { className: "col-md-5 col-sm-5 col-xs-5 header-social" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'ul',
+                  "ul",
                   null,
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
+                    "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#', title: 'Facebook' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-facebook' })
+                      "a",
+                      { href: "#", title: "Facebook" },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-facebook" })
                     )
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
+                    "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#', title: 'Twitter' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-twitter' })
+                      "a",
+                      { href: "#", title: "Twitter" },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-twitter" })
                     )
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
+                    "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#', title: 'Linkedin' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-linkedin' })
+                      "a",
+                      { href: "#", title: "Linkedin" },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-linkedin" })
                     )
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
+                    "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#', title: 'Tumblr' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-tumblr' })
+                      "a",
+                      { href: "#", title: "Tumblr" },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-tumblr" })
                     )
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
+                    "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#', title: 'Vimeo' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-vimeo' })
+                      "a",
+                      { href: "#", title: "Vimeo" },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-vimeo" })
                     )
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
+                    "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#', title: 'Pinterest' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-pinterest-p' })
+                      "a",
+                      { href: "#", title: "Pinterest" },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-pinterest-p" })
                     )
                   )
                 )
@@ -38127,142 +38127,142 @@ var Header = function (_Component) {
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'middel-header' },
+            "div",
+            { className: "middel-header" },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'container' },
+              "div",
+              { className: "container" },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'col-md-4 col-sm-6 col-xs-12 logo-block' },
+                "div",
+                { className: "col-md-4 col-sm-6 col-xs-12 logo-block" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'a',
-                  { href: 'index.html', className: 'navbar-brand' },
-                  'Max ',
+                  "a",
+                  { href: "index.html", className: "navbar-brand" },
+                  "Max ",
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
+                    "span",
                     null,
-                    'shop'
+                    "shop"
                   )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'col-md-5 col-sm-6 col-xs-6 search-block' },
+                "div",
+                { className: "col-md-5 col-sm-6 col-xs-6 search-block" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'input-group' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { className: 'form-control', placeholder: 'Search You Wants Here . . .', type: 'text' }),
+                  "div",
+                  { className: "input-group" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { className: "form-control", placeholder: "Search You Wants Here . . .", type: "text" }),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
-                    { className: 'input-group-btn' },
+                    "span",
+                    { className: "input-group-btn" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'button',
-                      { className: 'btn btn-default', type: 'button' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-Search' })
+                      "button",
+                      { className: "btn btn-default", type: "button" },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Search" })
                     )
                   )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'col-md-3 col-sm-6 col-xs-6 menu-icon' },
+                "div",
+                { className: "col-md-3 col-sm-6 col-xs-6 menu-icon" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'ul',
-                  { className: 'cart' },
+                  "ul",
+                  { className: "cart" },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
+                    "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { 'aria-expanded': 'true', 'aria-haspopup': 'true', 'data-toggle': 'dropdown', id: 'cart', className: 'btn dropdown-toggle', title: 'Add To Cart', href: '#' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-ShoppingCart' })
+                      "a",
+                      { "aria-expanded": "true", "aria-haspopup": "true", "data-toggle": "dropdown", id: "cart", className: "btn dropdown-toggle", title: "Add To Cart", href: "#" },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-ShoppingCart" })
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'ul',
-                      { className: 'dropdown-menu no-padding' },
+                      "ul",
+                      { className: "dropdown-menu no-padding" },
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        { className: 'mini_cart_item' },
+                        "li",
+                        { className: "mini_cart_item" },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { title: 'Remove this item', className: 'remove', href: '#' },
-                          '\xD7'
+                          "a",
+                          { title: "Remove this item", className: "remove", href: "#" },
+                          "\xD7"
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { href: '#', className: 'shop-thumbnail' },
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { alt: 'poster_2_up', className: 'attachment-shop_thumbnail', src: 'images/product-wishlist-1.jpg' }),
-                          'Flying Ninja'
+                          "a",
+                          { href: "#", className: "shop-thumbnail" },
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { alt: "poster_2_up", className: "attachment-shop_thumbnail", src: "images/product-wishlist-1.jpg" }),
+                          "Flying Ninja"
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'span',
-                          { className: 'quantity' },
-                          '2 \xD7 ',
+                          "span",
+                          { className: "quantity" },
+                          "2 \xD7 ",
                           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            'span',
-                            { className: 'amount' },
-                            'Rs.12.00'
+                            "span",
+                            { className: "amount" },
+                            "Rs.12.00"
                           )
                         )
                       ),
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        { className: 'mini_cart_item' },
+                        "li",
+                        { className: "mini_cart_item" },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { title: 'Remove this item', className: 'remove', href: '#' },
-                          '\xD7'
+                          "a",
+                          { title: "Remove this item", className: "remove", href: "#" },
+                          "\xD7"
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { href: '#', className: 'shop-thumbnail' },
-                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { alt: 'poster_2_up', className: 'attachment-shop_thumbnail', src: 'images/product-wishlist-2.jpg' }),
-                          'Flying Ninja'
+                          "a",
+                          { href: "#", className: "shop-thumbnail" },
+                          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { alt: "poster_2_up", className: "attachment-shop_thumbnail", src: "images/product-wishlist-2.jpg" }),
+                          "Flying Ninja"
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'span',
-                          { className: 'quantity' },
-                          '2 \xD7 ',
+                          "span",
+                          { className: "quantity" },
+                          "2 \xD7 ",
                           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            'span',
-                            { className: 'amount' },
-                            'Rs.12.00'
+                            "span",
+                            { className: "amount" },
+                            "Rs.12.00"
                           )
                         )
                       ),
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        { className: 'button' },
+                        "li",
+                        { className: "button" },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { href: '#', title: 'View Cart' },
-                          'View Cart'
+                          "a",
+                          { href: "#", title: "View Cart" },
+                          "View Cart"
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                          'a',
-                          { href: '#', title: 'Check Out' },
-                          'Check out'
+                          "a",
+                          { href: "#", title: "Check Out" },
+                          "Check out"
                         )
                       )
                     )
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
+                    "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#', title: 'Like' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-Heart' })
+                      "a",
+                      { href: "#", title: "Like" },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Heart" })
                     )
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
+                    "li",
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '#', title: 'User' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'icon icon-User' })
+                      "a",
+                      { href: "#", title: "User" },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-User" })
                     )
                   )
                 )
