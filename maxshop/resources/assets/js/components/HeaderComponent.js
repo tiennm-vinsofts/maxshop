@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Navbar from "./Navbar";
+import Navbar from "./NavbarComponent";
 class Header extends Component {
     render() {
         return (
