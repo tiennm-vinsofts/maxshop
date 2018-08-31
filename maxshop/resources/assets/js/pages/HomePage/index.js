@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Header from '../../components/Header';
-import Slide from '../../components/Slide';
-import Footer from '../../components/Footer';
+import Header from '../../components/HeaderComponent';
+import Slide from '../../components/SlideComponent';
+import Footer from '../../components/FooterComponent';
 import Product from './Product';
 import Collection from './Collection';
 import Deal from './Deal';

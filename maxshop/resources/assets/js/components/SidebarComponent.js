@@ -98,37 +98,6 @@ class Sidebar extends Component {
                 <a href="#" title="Modern">Modern</a>
               </div>
             </aside>{/* Widget Tags */}
-            <aside className="widget widget_tweets">
-        <h3 className="widget-title">latest tweets</h3>
-        {/* Main Carousel */}
-        <div id="main-carousel1" className="carousel slide carousel-fade" data-ride="carousel">
-          <ol className="carousel-indicators">
-            <li data-target="#main-carousel1" data-slide-to={0} className="active" />
-            <li data-target="#main-carousel1" data-slide-to={1} />
-            <li data-target="#main-carousel1" data-slide-to={2} />
-          </ol>
-          <div role="listbox" className="carousel-inner">
-            <div className="item active">
-              <h5>tweet@John max</h5>
-              <p>MAX SHOP - Creative Minimal Portfolio WordPress Theme by @ifathemes</p>
-              <a href="#">http://goo.gl/6CbMtH</a>
-              <span>5 Hours ago</span>
-            </div>
-            <div className="item">
-              <h5>tweet@John max</h5>
-              <p>MAX SHOP - Creative Minimal Portfolio WordPress Theme by @ifathemes</p>
-              <a href="#">http://goo.gl/6CbMtH</a>
-              <span>5 Hours ago</span>
-            </div>
-            <div className="item">
-              <h5>tweet@John max</h5>
-              <p>MAX SHOP - Creative Minimal Portfolio WordPress Theme by @ifathemes</p>
-              <a href="#">http://goo.gl/6CbMtH</a>
-              <span>5 Hours ago</span>
-            </div>
-          </div>
-        </div>
-      </aside>
           </div>
         );
     }
