@@ -25,3 +25,14 @@ Route::group([], function () {
         Route::post('register', 'AuthAPIController@register')->name('register');
     });
 });
+
+
+Route::resource('categories', 'CategoryAPIController');
+
+Route::resource('products', 'ProductAPIController');
+
+Route::resource('countries', 'CountryAPIController');
+
+Route::resource('orders', 'OrderAPIController');
+
+Route::resource('order_items', 'OrderItemAPIController');

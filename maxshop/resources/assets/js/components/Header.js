@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Navbar from './Navbar'
+import React, {Component} from "react";
+import Navbar from "./Navbar";
 class Header extends Component {
     render() {
         return (
@@ -29,7 +29,7 @@ class Header extends Component {
                     </div>
                   </div>
                   {/* Social */}
-                  <div className="col-md-5 col-sm-5 col-xs-5 header-social"> 
+                  <div className="col-md-5 col-sm-5 col-xs-5 header-social">
                     <ul>
                       <li><a href="#" title="Facebook"><i className="fa fa-facebook" /></a></li>
                       <li><a href="#" title="Twitter"><i className="fa fa-twitter" /></a></li>

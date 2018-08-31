@@ -25,3 +25,13 @@ Route::get('generator_builder', '\InfyOm\GeneratorBuilder\Controllers\GeneratorB
 Route::get('field_template', '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@fieldTemplate');
 
 Route::post('generator_builder/generate', '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@generate');
+
+Route::resource('categories', 'CategoryController');
+
+Route::resource('products', 'ProductController');
+
+Route::resource('countries', 'CountryController');
+
+Route::resource('orders', 'OrderController');
+
+Route::resource('orderItems', 'OrderItemController');
