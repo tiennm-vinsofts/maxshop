@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
-import Header from './Header';
+import Home from '../pages/Home';
+import Cart from '../pages/Categories/Cart';
+import Checkout from '../pages/Categories/Checkout';
+import Error from '../pages/Categories/404';
+import Shop from '../pages/Shop';
+
+
 import ReactDOM from 'react-dom';
-import Slide from './Slide';
-import Footer from './Footer';
 
 class Index extends Component {
     render() {
         return (
             <div>
-                <Header/>
-                <Slide/>
-                <Footer/>
+                <Home/>
             </div>
         );
     }

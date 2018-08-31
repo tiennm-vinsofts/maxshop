@@ -39,8 +39,10 @@
         <link rel="stylesheet" type="text/css" href="style.css">
 
     </head>
-    <body>
+    <body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
+        <div class="main-container">
         <div id="example"></div>
+        </div>
         <!-- <div id="header"></div> -->
 
 

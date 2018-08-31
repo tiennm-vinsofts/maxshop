@@ -3,7 +3,15 @@ import Navbar from './Navbar'
 class Header extends Component {
     render() {
         return (
-
+            <div>
+            <div id="site-loader" className="load-complete">
+        <div className="loader">
+          <div className="loader-inner ball-clip-rotate">
+            <div />
+          </div>
+        </div>
+      
+            </div>
             <header className="header-section header-section-1 container-fluid no-padding">
               {/* Top Header */}
               <div className="top-header top-header1 container-fluid no-padding">
@@ -94,6 +102,7 @@ class Header extends Component {
             <Navbar/>
              {/* Menu Block /- */}
             </header>
+            </div>
           );
     }
 }
