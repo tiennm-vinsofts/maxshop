@@ -27,4 +27,16 @@ class AppBaseController extends Controller
     {
         return Response::json(ResponseUtil::makeError($error), $code);
     }
+    public function uploadImage($name)
+    {
+        error_log($name);
+        if (request()->hasFile($name)) {
+            $file = request()->file($name);
+            $timestamp = time();
+            $target = rand(0,9999)."_{$timestamp}.{$file->guessClientExtension()}";
+            $file->move(public_path('uploads'), $target);
+            error_log(url("uploads/{$target}"));
+            return url("uploads/{$target}");
+        }
+    }
 }
