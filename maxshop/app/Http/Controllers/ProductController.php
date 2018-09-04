@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\Helper;
 use App\Http\Requests\CreateProductRequest;
 use App\Http\Requests\UpdateProductRequest;
 use App\Models\Category;
@@ -15,10 +16,12 @@ class ProductController extends AppBaseController
 {
     /** @var  ProductRepository */
     private $productRepository;
+    private $helper;
 
-    public function __construct(ProductRepository $productRepo)
+    public function __construct(ProductRepository $productRepo,Helper $helper)
     {
         $this->productRepository = $productRepo;
+        $this->helper = $helper;
     }
 
     /**
@@ -57,8 +60,8 @@ class ProductController extends AppBaseController
     public function store(CreateProductRequest $request)
     {
         $input = $request->all();
-
-        $product = $this->productRepository->create($input);
+        $input['img'] = $this->helper->uploadImage('img');
+        $this->productRepository->create($input);
 
         Flash::success('Product saved successfully.');
 
@@ -101,7 +104,6 @@ class ProductController extends AppBaseController
 
             return redirect(route('products.index'));
         }
-
         $category_list = Category::pluck('name', 'id');
         return view('products.edit',compact('category_list'))->with('product', $product);
     }
@@ -123,8 +125,13 @@ class ProductController extends AppBaseController
 
             return redirect(route('products.index'));
         }
-
-        $product = $this->productRepository->update($request->all(), $id);
+        $input = $request->all();
+        if(isset($request->img)){
+            $input['img'] = $this->helper->uploadImage('img');
+        }else{
+            $input['img'] = $product['img'];
+        }
+        $this->productRepository->update($input, $id);
 
         Flash::success('Product updated successfully.');
 

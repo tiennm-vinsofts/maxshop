@@ -32,6 +32,9 @@
 <div class="form-group col-sm-6">
     {!! Form::label('img', 'Img:') !!}
     {!! Form::file('img') !!}
+    @if(isset( $product->img))
+    {{ Html::image($product->img,'anh',['class'=>'img-responsive']) }}
+        @endif
 </div>
 <div class="clearfix"></div>
 

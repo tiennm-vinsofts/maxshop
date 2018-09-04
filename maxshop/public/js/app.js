@@ -43581,6 +43581,9 @@ var Home = function (_Component) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_jquery__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -43591,101 +43594,195 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
+
 var Slide = function (_Component) {
-  _inherits(Slide, _Component);
+    _inherits(Slide, _Component);
 
-  function Slide() {
-    _classCallCheck(this, Slide);
+    function Slide(props) {
+        _classCallCheck(this, Slide);
 
-    return _possibleConstructorReturn(this, (Slide.__proto__ || Object.getPrototypeOf(Slide)).apply(this, arguments));
-  }
+        var _this = _possibleConstructorReturn(this, (Slide.__proto__ || Object.getPrototypeOf(Slide)).call(this, props));
 
-  _createClass(Slide, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { id: "home-revslider", className: "slider-section slider-section-1 container-fluid no-padding" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "rev_slider_wrapper" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { id: "home-slider2", className: "rev_slider", "data-version": 5.0 },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "ul",
-              null,
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "li",
-                { "data-transition": "zoomout", "data-slotamount": "default", "data-easein": "easeInOut", "data-easeout": "easeInOut", "data-masterspeed": 2000, "data-rotate": 0, "data-fstransition": "fade", "data-fsmasterspeed": 1500, "data-fsslotamount": 7 },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/slider-2.jpg", alt: "slider", "data-bgposition": "center center", "data-bgfit": "cover", "data-bgrepeat": "no-repeat", "data-bgparallax": 10, className: "rev-slidebg", "data-no-retina": true }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-1", "data-x": "['center','center','center','center']", "data-hoffset": "['120','30','-80','-70']", "data-y": "['top','top','top','top']", "data-voffset": "['300','200','150','70']", "data-fontsize": "['48','38','30','16']", "data-lineheight": "['30','30','30','30']", "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;", "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;", "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;", "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;", "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000, "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on", "data-elementdelay": "0.05", style: { zIndex: 5, whiteSpace: 'nowrap', letterSpacing: '1.92px', position: 'relative', color: '#333', fontWeight: 'normal', fontFamily: '"Arizonia", cursive' } },
-                  "trends of 2016"
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-2", "data-x": "['center','center','center','center']", "data-hoffset": "['250','130','-10','-30']", "data-y": "['top','top','top','top']", "data-voffset": "['365','260','200','100']", "data-fontsize": "['48','38','30','16']", "data-lineheight": "['30','30','30','30']", "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;", "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;", "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;", "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;", "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000, "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on", "data-elementdelay": "0.05", style: { zIndex: 5, whiteSpace: 'nowrap', position: 'relative', color: '#b6795f', fontWeight: 'normal', fontFamily: '"Montserrat", sans-serif', textTransform: 'uppercase' } },
-                  "men's collections"
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-3", "data-x": "['center','center','center','center']", "data-hoffset": "['270','200','100','125']", "data-y": "['top','top','top','top']", "data-voffset": "['425','315','245','135']", "data-fontsize": "['18','18','18','16']", "data-lineheight": "['27','27','27','27']", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;", "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;", "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;", "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;", "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000, "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on", "data-elementdelay": "0.05", style: { zIndex: 5, whiteSpace: 'nowrap', letterSpacing: '0.72px', position: 'relative', color: '#333', fontWeight: 'normal', fontFamily: '"Lato", sans-serif' } },
-                  "The weather started getting rough is the tiny ship was tossed. If not for",
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                  " the courage of the fearless crew."
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "tp-caption NotGeneric-Button rev-btn  rs-parallaxlevel-0", id: "slide-layer-4", "data-x": "['middle','middle','center','center']", "data-hoffset": "['85','15','-90','-10']", "data-y": "['top','top','top','top']", "data-voffset": "['515','410','335','220']", "data-fontsize": "['14','14','13','12']", "data-lineheight": "['24','24','24','24']", "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;", "data-transform_hover": "o:1;rX:0;rY:0;rZ:0;z:0;s:100;e:Power1.easeInOut;", "data-style_hover": "c:rgb(255, 255, 255);bg:rgba(182, 121, 95);", "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;", "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;", "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;", "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 2000, "data-splitin": "none", "data-splitout": "none", "data-actions": "[{\"event\":\"click\",\"action\":\"scrollbelow\",\"offset\":\"0px\"}]", "data-responsive_offset": "on", "data-responsive": "off", style: { zIndex: 10, padding: '8px 38px', letterSpacing: '0.56px', color: '#b6795f', borderColor: '#b6795f', fontFamily: '"Montserrat", sans-serif', textTransform: 'uppercase', backgroundColor: 'transparent', whiteSpace: 'nowrap', outline: 'none', boxShadow: 'none', boxSizing: 'border-box', MozBoxSizing: 'border-box', WebkitBoxSizing: 'border-box' } },
-                  "Shop Now"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "li",
-                { "data-transition": "zoomout", "data-slotamount": "default", "data-easein": "easeInOut", "data-easeout": "easeInOut", "data-masterspeed": 2000, "data-rotate": 0, "data-fstransition": "fade", "data-fsmasterspeed": 1500, "data-fsslotamount": 7 },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/slider-2.jpg", alt: "slider", "data-bgposition": "center center", "data-bgfit": "cover", "data-bgrepeat": "no-repeat", "data-bgparallax": 10, className: "rev-slidebg", "data-no-retina": true }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-5", "data-x": "['center','center','center','center']", "data-hoffset": "['120','30','-80','-70']", "data-y": "['top','top','top','top']", "data-voffset": "['300','200','150','70']", "data-fontsize": "['48','38','30','16']", "data-lineheight": "['30','30','30','30']", "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;", "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;", "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;", "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;", "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000, "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on", "data-elementdelay": "0.05", style: { zIndex: 5, whiteSpace: 'nowrap', letterSpacing: '1.92px', position: 'relative', color: '#333', fontWeight: 'normal', fontFamily: '"Arizonia", cursive' } },
-                  "trends of 2016"
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-6", "data-x": "['center','center','center','center']", "data-hoffset": "['250','130','-10','-30']", "data-y": "['top','top','top','top']", "data-voffset": "['365','260','200','100']", "data-fontsize": "['48','38','30','16']", "data-lineheight": "['30','30','30','30']", "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;", "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;", "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;", "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;", "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000, "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on", "data-elementdelay": "0.05", style: { zIndex: 5, whiteSpace: 'nowrap', position: 'relative', color: '#b6795f', fontWeight: 'normal', fontFamily: '"Montserrat", sans-serif', textTransform: 'uppercase' } },
-                  "men's collections"
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-7", "data-x": "['center','center','center','center']", "data-hoffset": "['270','200','100','125']", "data-y": "['top','top','top','top']", "data-voffset": "['425','315','245','135']", "data-fontsize": "['18','18','18','16']", "data-lineheight": "['27','27','27','27']", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;", "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;", "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;", "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;", "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000, "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on", "data-elementdelay": "0.05", style: { zIndex: 5, whiteSpace: 'nowrap', letterSpacing: '0.72px', position: 'relative', color: '#333', fontWeight: 'normal', fontFamily: '"Lato", sans-serif' } },
-                  "The weather started getting rough is the tiny ship was tossed. If not for",
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                  " the courage of the fearless crew."
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "tp-caption NotGeneric-Button rev-btn  rs-parallaxlevel-0", id: "slide-layer-8", "data-x": "['middle','middle','center','center']", "data-hoffset": "['85','15','-90','-10']", "data-y": "['top','top','top','top']", "data-voffset": "['515','410','335','220']", "data-fontsize": "['14','14','13','12']", "data-lineheight": "['24','24','24','24']", "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;", "data-transform_hover": "o:1;rX:0;rY:0;rZ:0;z:0;s:100;e:Power1.easeInOut;", "data-style_hover": "c:rgb(255, 255, 255);bg:rgba(182, 121, 95);", "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;", "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;", "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;", "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 2000, "data-splitin": "none", "data-splitout": "none", "data-actions": "[{\"event\":\"click\",\"action\":\"scrollbelow\",\"offset\":\"0px\"}]", "data-responsive_offset": "on", "data-responsive": "off", style: { zIndex: 10, padding: '8px 38px', letterSpacing: '0.56px', color: '#b6795f', borderColor: '#b6795f', fontFamily: '"Montserrat", sans-serif', textTransform: 'uppercase', backgroundColor: 'transparent', whiteSpace: 'nowrap', outline: 'none', boxShadow: 'none', boxSizing: 'border-box', MozBoxSizing: 'border-box', WebkitBoxSizing: 'border-box' } },
-                  "Shop Now"
-                )
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "goto-next" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "a",
-            { href: "#collection" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Mouse bounce" })
-          )
-        )
-      );
+        _this.state = {
+            slides: []
+        };
+        return _this;
     }
-  }]);
 
-  return Slide;
+    _createClass(Slide, [{
+        key: "componentDidMount",
+        value: function componentDidMount() {
+            var _this2 = this;
+
+            axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* default */].urlapi + 'slides').then(function (response) {
+                _this2.setState({ slides: response.data.data });
+            });
+            setTimeout(function () {
+                // $("#home-slider2").revolution({
+                //     sliderType:"standard",
+                //     sliderLayout:"auto",
+                //     delay:6000,
+                //     navigation: {
+                //         arrows:{
+                //             enable:true,
+                //             style:"uranus"
+                //         }
+                //     },
+                //     responsiveLevels:[1920,1024,768,480],
+                //     gridwidth:[1920,1024,768,480],
+                //     gridheight:[881,675,580,480],
+                // });
+            }, 1000);
+        }
+    }, {
+        key: "render",
+        value: function render() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { id: "home-revslider", className: "slider-section slider-section-1 container-fluid no-padding" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "div",
+                    { className: "rev_slider_wrapper" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "div",
+                        { id: "home-slider2", className: "rev_slider", "data-version": 5.0 },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            "ul",
+                            null,
+                            this.state.slides.map(function (slide) {
+                                return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    "li",
+                                    { key: slide.id, "data-transition": "zoomout", "data-slotamount": "default", "data-easein": "easeInOut",
+                                        "data-easeout": "easeInOut", "data-masterspeed": 2000, "data-rotate": 0, "data-fstransition": "fade",
+                                        "data-fsmasterspeed": 1500, "data-fsslotamount": 7 },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: slide.img, alt: "slider", "data-bgposition": "center center", "data-bgfit": "cover",
+                                        "data-bgrepeat": "no-repeat", "data-bgparallax": 10, className: "rev-slidebg", "data-no-retina": true }),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        "div",
+                                        { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-1",
+                                            "data-x": "['center','center','center','center']", "data-hoffset": "['120','30','-80','-70']",
+                                            "data-y": "['top','top','top','top']", "data-voffset": "['300','200','150','70']",
+                                            "data-fontsize": "['48','38','30','16']", "data-lineheight": "['30','30','30','30']",
+                                            "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
+                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
+                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
+                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
+                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000,
+                                            "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on",
+                                            "data-elementdelay": "0.05", style: {
+                                                zIndex: 5,
+                                                whiteSpace: 'nowrap',
+                                                letterSpacing: '1.92px',
+                                                position: 'relative',
+                                                color: '#333',
+                                                fontWeight: 'normal',
+                                                fontFamily: '"Arizonia", cursive'
+                                            } },
+                                        slide.title
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        "div",
+                                        { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-2",
+                                            "data-x": "['center','center','center','center']", "data-hoffset": "['250','130','-10','-30']",
+                                            "data-y": "['top','top','top','top']", "data-voffset": "['365','260','200','100']",
+                                            "data-fontsize": "['48','38','30','16']", "data-lineheight": "['30','30','30','30']",
+                                            "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
+                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
+                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
+                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
+                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000,
+                                            "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on",
+                                            "data-elementdelay": "0.05", style: {
+                                                zIndex: 5,
+                                                whiteSpace: 'nowrap',
+                                                position: 'relative',
+                                                color: '#b6795f',
+                                                fontWeight: 'normal',
+                                                fontFamily: '"Montserrat", sans-serif',
+                                                textTransform: 'uppercase'
+                                            } },
+                                        slide.title2
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        "div",
+                                        { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-3",
+                                            "data-x": "['center','center','center','center']", "data-hoffset": "['270','200','100','125']",
+                                            "data-y": "['top','top','top','top']", "data-voffset": "['425','315','245','135']",
+                                            "data-fontsize": "['18','18','18','16']", "data-lineheight": "['27','27','27','27']",
+                                            "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
+                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
+                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
+                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
+                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000,
+                                            "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on",
+                                            "data-elementdelay": "0.05", style: {
+                                                zIndex: 5,
+                                                whiteSpace: 'nowrap',
+                                                letterSpacing: '0.72px',
+                                                position: 'relative',
+                                                color: '#333',
+                                                fontWeight: 'normal',
+                                                fontFamily: '"Lato", sans-serif'
+                                            } },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            "p",
+                                            null,
+                                            slide.des
+                                        )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        "div",
+                                        { className: "tp-caption NotGeneric-Button rev-btn  rs-parallaxlevel-0", id: "slide-layer-4",
+                                            "data-x": "['middle','middle','center','center']", "data-hoffset": "['85','15','-90','-10']",
+                                            "data-y": "['top','top','top','top']", "data-voffset": "['515','410','335','220']",
+                                            "data-fontsize": "['14','14','13','12']", "data-lineheight": "['24','24','24','24']",
+                                            "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
+                                            "data-transform_hover": "o:1;rX:0;rY:0;rZ:0;z:0;s:100;e:Power1.easeInOut;",
+                                            "data-style_hover": "c:rgb(255, 255, 255);bg:rgba(182, 121, 95);",
+                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
+                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
+                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
+                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 2000,
+                                            "data-splitin": "none", "data-splitout": "none",
+                                            "data-actions": "[{\"event\":\"click\",\"action\":\"scrollbelow\",\"offset\":\"0px\"}]",
+                                            "data-responsive_offset": "on", "data-responsive": "off", style: {
+                                                zIndex: 10,
+                                                padding: '8px 38px',
+                                                letterSpacing: '0.56px',
+                                                color: '#b6795f',
+                                                borderColor: '#b6795f',
+                                                fontFamily: '"Montserrat", sans-serif',
+                                                textTransform: 'uppercase',
+                                                backgroundColor: 'transparent',
+                                                whiteSpace: 'nowrap',
+                                                outline: 'none',
+                                                boxShadow: 'none',
+                                                boxSizing: 'border-box',
+                                                MozBoxSizing: 'border-box',
+                                                WebkitBoxSizing: 'border-box'
+                                            } },
+                                        "Shop Now"
+                                    )
+                                );
+                            })
+                        )
+                    )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "div",
+                    { className: "goto-next" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "#collection" },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Mouse bounce" })
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Slide;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["a"] = (Slide);
@@ -43830,10 +43927,16 @@ var Category = function (_Component) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_axios__);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_axios__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config__ = __webpack_require__(143);
+>>>>>>> tung
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -43855,23 +43958,55 @@ var Product = function (_Component) {
         var _this = _possibleConstructorReturn(this, (Product.__proto__ || Object.getPrototypeOf(Product)).call(this, props));
 
         _this.state = {
-            products: []
+            urlproduct: __WEBPACK_IMPORTED_MODULE_2__config__["a" /* default */].urlapi + 'products',
+            page: 1,
+            products: [],
+            data: []
         };
+
         return _this;
     }
 
     _createClass(Product, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
+        key: 'updateState',
+        value: function updateState(tien) {
+
+            if (tien == 1) {
+                if (this.state.data.last_page == this.state.page) {
+                    return;
+                }
+                this.state.page++;
+            } else {
+                if (1 == this.state.page) {
+                    return;
+                }
+                this.state.page--;
+            }
+            this.state.urlproduct = __WEBPACK_IMPORTED_MODULE_2__config__["a" /* default */].urlapi + 'products?page=' + this.state.page;
+            this.getData();
+        }
+    }, {
+        key: 'getData',
+        value: function getData() {
             var _this2 = this;
 
-            __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('http://192.168.1.23/maxshop/maxshop/public/index.php/api/products').then(function (response) {
-                _this2.setState({ products: response.data.data });
+            __WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(this.state.urlproduct).then(function (response) {
+                _this2.setState({
+                    products: response.data.data.data,
+                    data: response.data.data
+                });
             });
+        }
+    }, {
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            this.getData();
         }
     }, {
         key: 'render',
         value: function render() {
+            var _this3 = this;
+
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 { id: 'product-section', className: 'product-section product-section1 container-fluid no-padding' },
@@ -43983,7 +44118,7 @@ var Product = function (_Component) {
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'a',
                                         null,
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: "http://192.168.1.23/maxshop/maxshop/public/" + product.img, alt: 'Product', style: { width: 270, height: 300 } }),
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: __WEBPACK_IMPORTED_MODULE_2__config__["a" /* default */].urlsever + product.img, alt: 'Product', style: { width: 270, height: 300 } }),
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             'h5',
                                             null,
@@ -44042,7 +44177,7 @@ var Product = function (_Component) {
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                     'a',
                                     { href: '#' },
-                                    '4'
+                                    this.state.page
                                 )
                             ),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -44059,7 +44194,9 @@ var Product = function (_Component) {
                                 { className: 'previous' },
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { onClick: function onClick() {
+                                            return _this3.updateState(1);
+                                        } },
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-angle-right' })
                                 )
                             ),
@@ -44068,7 +44205,9 @@ var Product = function (_Component) {
                                 { className: 'next' },
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { onClick: function onClick() {
+                                            return _this3.updateState(2);
+                                        } },
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-angle-left' })
                                 )
                             )
@@ -66792,6 +66931,21 @@ var Routers = function Routers(route) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 139 */,
+/* 140 */,
+/* 141 */,
+/* 142 */,
+/* 143 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var config = {
+    urlsever: "http://127.0.0.1:8000/",
+    urlapi: "http://127.0.0.1:8000/api/"
+};
+/* harmony default export */ __webpack_exports__["a"] = (config);
 
 /***/ })
 /******/ ]);
