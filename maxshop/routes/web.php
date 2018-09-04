@@ -11,10 +11,12 @@
 |
 */
 
+     
 Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('/{path?}','welcome');
 
 Auth::routes();
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link} from 'react-router-dom';
 
 class Navbar extends Component {
     render() {
@@ -15,12 +16,12 @@ class Navbar extends Component {
                       <span className="icon-bar" />
                       <span className="icon-bar" />
                     </button>
-                    <a href="index.html" className="navbar-brand">Max <span>shop</span></a>
+                    <Link to="/" className="navbar-brand">Max <span>shop</span></Link>
                   </div>
                   <div className="navbar-collapse collapse" id="navbar">
                     <ul className="nav navbar-nav">
                       <li className="active dropdown">
-                        <a href="#" title="Home" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                        <Link to="/" title="Home" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</Link>
                         {/* <i class="ddl-switch fa fa-angle-down"></i>
                                         <ul class="dropdown-menu">				
                                             <li><a href="index.html" title="home 1">home 1</a></li>
@@ -28,31 +29,31 @@ class Navbar extends Component {
                                         </ul> */}
                       </li>
                       <li className="dropdown">
-                        <a href="#" title="Home" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Categories </a>
+                        <Link to="#" title="Home" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Categories </Link>
                         <i className="ddl-switch fa fa-angle-down" />
                         <ul className="dropdown-menu">				
-                          <li><a href="cart.html" title="Cart">Cart</a></li>
-                          <li><a href="checkout.html" title="Checkout">Checkout</a></li>
-                          <li><a href="404.html" title={404}>404</a></li>
+                          <li><Link to="/cart" title="Cart">Cart</Link></li>
+                          <li><Link to="/checkout" title="Checkout">Checkout</Link></li>
+                          <li><Link to="/error" title={404}>404</Link></li>
                         </ul>
                       </li>
                       <li><a href="#product-section" title="Products">Products</a></li>
                       <li className="dropdown">
-                        <a href="shop.html" title="Shop" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                        <Link to="/shop" title="Shop" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Shop</Link>
                         <i className="ddl-switch fa fa-angle-down" />
                         <ul className="dropdown-menu">				
-                          <li><a href="shop-single.html" title="Shop Single">Shop Single</a></li>
+                          <li><Link to="/single" title="Shop Single">Shop Single</Link></li>
                         </ul>
                       </li>
                       <li className="dropdown">
-                        <a href="blog.html" title="Blog" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <Link to="/blog" title="Blog" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Blog</Link>
                         <i className="ddl-switch fa fa-angle-down" />
                         <ul className="dropdown-menu">				
-                          <li><a href="blog-post.html" title="Blog Post">Blog Post</a></li>
+                          <li><Link to="/blog-post" title="Blog Post">Blog Post</Link></li>
                         </ul>
                       </li>
-                      <li><a href="about.html" title="About Us">About Us</a></li>
-                      <li><a href="contact-us.html" title="Contact Us">Contact Us</a></li>
+                      <li><Link to="/about" title="About Us">About Us</Link></li>
+                      <li><Link to="/contact" title="Contact Us">Contact Us</Link></li>
                     </ul>
                   </div>{/*/.nav-collapse */}
                 </nav>{/* nav /- */}

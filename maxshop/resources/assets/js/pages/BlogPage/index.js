@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../../components/HeaderComponent';
 import Sidebar from '../../components/SidebarComponent';
-import Footer from '../../components/FooterComponent';
 import BlogContent from './BlogContent';
 import Banner from '../../components/BannerComponent';
 
@@ -9,7 +7,6 @@ class Blog extends Component {
     render() {
         return (
             <div>
-                <Header/>
                 <Banner/>
                 <div className="container">
                     <BlogContent/>
@@ -23,7 +20,6 @@ class Blog extends Component {
                         </ul>
                     </nav>
                 </div>
-                <Footer/>
             </div>
         );
     }

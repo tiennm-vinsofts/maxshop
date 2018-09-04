@@ -2,20 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95627b6-b040-4801-9707-d907ee75475a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/maxshop/app/Helpers/Helper.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/maxshop/public/uploads/1/6553_1536037119.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/maxshop/public/uploads/1/7842_1536037187.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/maxshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/maxshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/maxshop/app/Http/Controllers/API/ProductAPIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/app/Http/Controllers/API/ProductAPIController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maxshop/app/Http/Controllers/AppBaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/app/Http/Controllers/AppBaseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maxshop/app/Repositories/AuthRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/app/Repositories/AuthRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maxshop/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxshop/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/AboutPage/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/AboutPage/AboutSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/AboutPage/Clients.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/AboutPage/Clients.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/AboutPage/TeamSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/AboutPage/TeamSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/AboutPage/TestimonialSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/AboutPage/TestimonialSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/BlogPage/BlogContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/BlogPage/BlogContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/BlogPage/BlogPost/ContentBlogPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/BlogPage/BlogPost/ContentBlogPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/BlogPage/BlogPost/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/BlogPage/BlogPost/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/ContactPage/ContentContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/ContactPage/ContentContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/ShopPage/ShopSingle/ContentShopSingle.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/ShopPage/ShopSingle/ContentShopSingle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/ShopPage/ShopSingle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/ShopPage/ShopSingle/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maxshop/resources/views/products/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/views/products/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maxshop/resources/views/products/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/views/products/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/resources/views/products/fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/views/products/fields.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maxshop/resources/views/products/show_fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/resources/views/products/show_fields.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +58,20 @@
         <counts>
           <entry key="env" value="1" />
           <entry key="jpeg" value="3" />
-          <entry key="js" value="7" />
+          <entry key="js" value="8" />
           <entry key="json" value="3" />
           <entry key="log" value="1" />
-          <entry key="php" value="38" />
+          <entry key="php" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="9" />
+          <entry key="Blade" value="13" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="8" />
           <entry key="Log" value="1" />
-          <entry key="PHP" value="29" />
+          <entry key="PHP" value="31" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -60,14 +79,14 @@
         <counts>
           <entry key="env" value="31" />
           <entry key="js" value="186" />
-          <entry key="php" value="378" />
+          <entry key="php" value="444" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="92" />
+          <entry key="Blade" value="119" />
           <entry key="JavaScript" value="186" />
-          <entry key="PHP" value="286" />
+          <entry key="PHP" value="325" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -79,24 +98,15 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+            <state relative-caret-position="554">
+              <caret line="131" column="44" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
               <folding>
                 <element signature="e#40#63#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/API/ProductAPIController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="42" column="69" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -105,9 +115,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,8 +132,9 @@
         <option value="$PROJECT_DIR$/maxshop/resources/views/products/show_fields.blade.php" />
         <option value="$PROJECT_DIR$/maxshop/resources/assets/js/config.js" />
         <option value="$PROJECT_DIR$/maxshop/app/Http/Controllers/AppBaseController.php" />
-        <option value="$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/maxshop/app/Http/Controllers/API/ProductAPIController.php" />
+        <option value="$PROJECT_DIR$/maxshop/resources/views/products/fields.blade.php" />
+        <option value="$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php" />
       </list>
     </option>
   </component>
@@ -144,6 +152,9 @@
       <path value="$PROJECT_DIR$/maxshop/package.json" />
       <path value="$PROJECT_DIR$/maxshop/vendor/infyomlabs/laravel-generator/templates/vuejs/js/package.json" />
     </packageJsonPaths>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/maxshop/package.json" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
@@ -294,15 +305,6 @@
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="maxshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
-              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -313,6 +315,7 @@
     <property name="Constants" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../shocking-api-master" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
   <component name="RecentsManager">
@@ -351,7 +354,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11495000" />
+    <option name="totallyTimeSpent" value="12309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="-4" width="1869" height="1084" extended-state="6" />
@@ -360,9 +363,6 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26110807" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Command Line Tools Console" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -370,10 +370,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4497908" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45292887" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002743" side_tool="true" weight="0.39958158" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="13" weight="0.3294979" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -496,9 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,9 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -519,12 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/resources/views/products/fields.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/public/uploads/9083_1536036144.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/public/uploads/9083_1536036144.jpeg" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -544,9 +536,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/public/uploads/4364_1536036224.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/public/uploads/4364_1536036224.jpeg" />
     <entry file="file://$PROJECT_DIR$/maxshop/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -585,27 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
           <caret line="220" column="44" selection-start-line="220" selection-start-column="44" selection-end-line="220" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/resources/views/products/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="80" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/resources/views/products/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/resources/views/products/show_fields.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
@@ -651,20 +620,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
-          <folding>
-            <element signature="e#40#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/API/ProductAPIController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="42" column="69" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/resources/views/products/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/resources/views/products/show_fields.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="57" column="70" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/resources/views/products/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/resources/views/products/fields.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Requests/CreateProductRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="131" column="44" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
+          <folding>
+            <element signature="e#40#63#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

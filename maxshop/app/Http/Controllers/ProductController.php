@@ -126,7 +126,11 @@ class ProductController extends AppBaseController
             return redirect(route('products.index'));
         }
         $input = $request->all();
-        $input['img'] = $this->helper->uploadImage('img');
+        if(isset($request->img)){
+            $input['img'] = $this->helper->uploadImage('img');
+        }else{
+            $input['img'] = $product['img'];
+        }
         $this->productRepository->update($input, $id);
 
         Flash::success('Product updated successfully.');

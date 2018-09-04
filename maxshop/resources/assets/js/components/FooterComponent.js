@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Footer extends Component {
     render() {
         return (
-    
-         
+
+
           <footer id="footer-main" className="footer-main footer-main-1 services-section container-fluid">
             {/* Container */}
             <div className="container">
@@ -65,18 +65,18 @@ class Footer extends Component {
               <aside className="col-md-4 col-sm-6 col-xs-6 ftr-widget widget_gallery">
                 <h3 className="widget-title">collections</h3>
                 <ul>
-                  <li><a href="#" title><img src="images/ftr-latestpost-1.jpg" alt="ftr-latestpost" /></a></li>
-                  <li><a href="#" title><img src="images/ftr-latestpost-2.jpg" alt="ftr-latestpost" /></a></li>
-                  <li><a href="#" title><img src="images/ftr-latestpost-3.jpg" alt="ftr-latestpost" /></a></li>
-                  <li><a href="#" title><img src="images/ftr-latestpost-4.jpg" alt="ftr-latestpost" /></a></li>
-                  <li><a href="#" title><img src="images/ftr-latestpost-5.jpg" alt="ftr-latestpost" /></a></li>
-                  <li><a href="#" title><img src="images/ftr-latestpost-6.jpg" alt="ftr-latestpost" /></a></li>
+                  <li><a href="#" ><img src="images/ftr-latestpost-1.jpg" alt="ftr-latestpost" /></a></li>
+                  <li><a href="#" ><img src="images/ftr-latestpost-2.jpg" alt="ftr-latestpost" /></a></li>
+                  <li><a href="#" ><img src="images/ftr-latestpost-3.jpg" alt="ftr-latestpost" /></a></li>
+                  <li><a href="#" ><img src="images/ftr-latestpost-4.jpg" alt="ftr-latestpost" /></a></li>
+                  <li><a href="#" ><img src="images/ftr-latestpost-5.jpg" alt="ftr-latestpost" /></a></li>
+                  <li><a href="#" ><img src="images/ftr-latestpost-6.jpg" alt="ftr-latestpost" /></a></li>
                 </ul>
               </aside>{/* Widget Gallery */}
               <div className="copyright-section">
                 <div className="coyright-content">
                   <p>© Max shop. all rights reserved</p>
-                </div>	
+                </div>
                 <ul>
                   <li><a href="#" title="Delivery Information">Delivery Information</a></li>
                   <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
