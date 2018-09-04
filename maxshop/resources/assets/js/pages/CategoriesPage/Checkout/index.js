@@ -18,7 +18,6 @@ class Checkout extends Component {
               </ol>
             </div>{/* Container /- */}
           </div>
-                <Banner/>
                 <ContentCheckout/>
             </div>
         );

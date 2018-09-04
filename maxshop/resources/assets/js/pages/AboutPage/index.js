@@ -9,7 +9,19 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Banner/>
+            <div className="page-banner container-fluid no-padding">
+            {/* Container */}
+            <div className="container">
+              <div className="banner-content">
+                <h3>About Us</h3>
+                <p>our vision is to be Earth's most customer centric company</p>
+              </div>
+              <ol className="breadcrumb">
+                <li><a href="index.html" title="Home">Home</a></li>							
+                <li className="active">About Us</li>
+              </ol>
+            </div>{/* Container /- */}
+          </div>
                 <AboutSection/>
                 <TeamSection/>
                 <TestimonialSection/>
