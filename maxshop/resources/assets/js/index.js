@@ -4,8 +4,6 @@ import Header from './components/HeaderComponent';
 import Footer from './components/FooterComponent';
 import { routes } from './routers/router';
 import Routers from './routers';
-
-
 import ReactDOM from 'react-dom';
 
 class Index extends Component {
