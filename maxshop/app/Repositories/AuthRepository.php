@@ -50,7 +50,7 @@ class AuthRepository extends BaseRepository
                 JWTAuth::setToken($token);
                 $user = JWTAuth::authenticate(JWTAuth::getToken());
                 if (!empty($user)) {
-                    foreach ($user->toArray() as $k => $v) {
+                    foreach ($user-JWTAuth>toArray() as $k => $v) {
                         $customClaims[$k] = $v;
                     }
                     $payload = JWTFactory::make($customClaims);
