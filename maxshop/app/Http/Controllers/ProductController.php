@@ -57,8 +57,7 @@ class ProductController extends AppBaseController
     public function store(CreateProductRequest $request)
     {
         $input = $request->all();
-        dd($input);
-        die;
+
         $product = $this->productRepository->create($input);
 
         Flash::success('Product saved successfully.');

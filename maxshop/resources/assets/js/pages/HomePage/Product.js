@@ -10,7 +10,7 @@ export default class Product extends Component {
             <div className="row">
               {/* Section Header */}
               <div className="section-header">
-                <h3>Our Products</h3>
+                <h3>Our Productsq</h3>
                 <p>our vision is to be Earth's most customer centric company</p>
                 <img src="images/section-seprator.png" alt="section-seprator" />
               </div>{/* Section Header /- */}
