@@ -61,7 +61,11 @@
           <entry key="js" value="8" />
           <entry key="json" value="3" />
           <entry key="log" value="1" />
+<<<<<<< Updated upstream
           <entry key="php" value="44" />
+=======
+          <entry key="php" value="45" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -71,7 +75,11 @@
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="8" />
           <entry key="Log" value="1" />
+<<<<<<< Updated upstream
           <entry key="PHP" value="31" />
+=======
+          <entry key="PHP" value="32" />
+>>>>>>> Stashed changes
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -79,14 +87,22 @@
         <counts>
           <entry key="env" value="31" />
           <entry key="js" value="186" />
+<<<<<<< Updated upstream
           <entry key="php" value="444" />
+=======
+          <entry key="php" value="451" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Blade" value="119" />
           <entry key="JavaScript" value="186" />
+<<<<<<< Updated upstream
           <entry key="PHP" value="325" />
+=======
+          <entry key="PHP" value="332" />
+>>>>>>> Stashed changes
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -102,8 +118,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="554">
               <caret line="131" column="44" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
+=======
+            <state relative-caret-position="394">
+              <caret line="120" column="16" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="16" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#40#63#0#PHP" expanded="true" />
               </folding>
@@ -354,7 +375,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="12309000" />
+=======
+    <option name="totallyTimeSpent" value="12871000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="-4" width="1869" height="1084" extended-state="6" />
@@ -392,6 +417,11 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>$product['img']</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>\Illuminate\Support\Facades\Auth::user()-&gt;getAuthIdentifier()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -428,11 +458,6 @@
       </expression>
       <expression>
         <expression-string>\Illuminate\Support\Facades\Auth::check()</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$request-&gt;hasFile('img');</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -673,8 +698,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="554">
           <caret line="131" column="44" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
+=======
+        <state relative-caret-position="394">
+          <caret line="120" column="16" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="16" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#40#63#0#PHP" expanded="true" />
           </folding>

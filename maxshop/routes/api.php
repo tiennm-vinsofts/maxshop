@@ -36,3 +36,5 @@ Route::resource('countries', 'CountryAPIController');
 Route::resource('orders', 'OrderAPIController');
 
 Route::resource('order_items', 'OrderItemAPIController');
+
+Route::resource('slides', 'SlideAPIController');

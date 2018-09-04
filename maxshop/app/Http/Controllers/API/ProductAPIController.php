@@ -42,7 +42,7 @@ class ProductAPIController extends AppBaseController
         if(isset($sort)){
             $products = $this->productRepository->orderBy($sort,'desc')->all();
         }else{
-            $products = $this->productRepository->all();
+            $products = $this->productRepository->paginate(1);
         }
 
         return $this->sendResponse($products->toArray(), 'Products retrieved successfully');
