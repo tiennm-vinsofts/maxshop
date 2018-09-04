@@ -38427,7 +38427,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-
 var Index = function (_Component) {
     _inherits(Index, _Component);
 
@@ -43503,6 +43502,9 @@ var Home = function (_Component) {
     }
 
     _createClass(Home, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {}
+    }, {
         key: 'render',
         value: function render() {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -43819,7 +43821,7 @@ var Product = function (_Component) {
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "h3",
                 null,
-                "Our Products"
+                "Our Productsq"
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "p",
