@@ -5,6 +5,7 @@ class Checkout extends Component {
     render() {
         return (
             <div>
+<<<<<<< HEAD
             <div className="page-banner container-fluid no-padding">
             {/* Container */}
             <div className="container">
@@ -18,6 +19,9 @@ class Checkout extends Component {
               </ol>
             </div>{/* Container /- */}
           </div>
+=======
+                <Banner/>
+>>>>>>> origin/quang
                 <ContentCheckout/>
             </div>
         );

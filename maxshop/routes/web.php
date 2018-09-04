@@ -17,6 +17,10 @@ Route::get('/', function () {
 });
 
 Route::view('/{path?}','welcome');
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/quang
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
