@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import config from "../config";
+import $ from "jquery";
 
 class Slide extends Component {
     constructor(props) {
@@ -13,6 +14,22 @@ class Slide extends Component {
             .then(response => {
                 this.setState({ slides: response.data.data });
             })
+        setTimeout(()=>{
+            // $("#home-slider2").revolution({
+            //     sliderType:"standard",
+            //     sliderLayout:"auto",
+            //     delay:6000,
+            //     navigation: {
+            //         arrows:{
+            //             enable:true,
+            //             style:"uranus"
+            //         }
+            //     },
+            //     responsiveLevels:[1920,1024,768,480],
+            //     gridwidth:[1920,1024,768,480],
+            //     gridheight:[881,675,580,480],
+            // });
+        },1000)
 
     }
     render() {

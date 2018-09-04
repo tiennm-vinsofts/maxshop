@@ -118,14 +118,18 @@ class SlideController extends AppBaseController
     public function update($id, UpdateSlideRequest $request)
     {
         $slide = $this->slideRepository->findWithoutFail($id);
-
+        $input = $request->all();
         if (empty($slide)) {
             Flash::error('Slide not found');
 
             return redirect(route('slides.index'));
         }
-
-        $slide = $this->slideRepository->update($request->all(), $id);
+        if(isset($request->img)){
+            $input['img'] = $this->helper->uploadImage('img');
+        }else{
+            $input['img'] = $slide['img'];
+        }
+        $slide = $this->slideRepository->update($input, $id);
 
         Flash::success('Slide updated successfully.');
 
