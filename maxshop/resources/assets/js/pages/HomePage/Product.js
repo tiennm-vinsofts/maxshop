@@ -11,7 +11,7 @@ export default class Product extends Component {
         }
     }
     componentDidMount() {
-        axios.get('http://quangqa.com/api/products')
+        axios.get('http://192.168.1.23/maxshop/maxshop/public/index.php/api/products')
             .then(response => {
                 this.setState({ products: response.data.data });
             })
@@ -39,7 +39,7 @@ export default class Product extends Component {
                 <li><a data-filter=".category4" href="#">shoes</a></li>
                 <li><a data-filter=".category5" href="#">electronics</a></li>
                 <li><a data-filter=".category6" href="#">mobiles</a></li>
-                <li><a data-filter=".category7" href="#">more<i className="fa fa-angle-down" /></a></li>
+                <li><a data-filter=".category11" href="#">more<i className="fa fa-angle-down" /></a></li>
               </ul>
               {/* Products */}
               <ul className="products">
@@ -48,7 +48,7 @@ export default class Product extends Component {
                                 return (
                                     <li key={product.id} className={'product category'+product.category_id}>
                                         <a >
-                                            <img src={"images/"+product.img} alt="Product" />
+                                            <img src={"http://192.168.1.23/maxshop/maxshop/public/"+product.img} alt="Product" style={{width:270,height:300}} />
                                             <h5>{product.name}</h5>
 
                                             <span className="price"><del>${product.priceold}</del>${product.pricenew}</span>

@@ -39151,7 +39151,7 @@ var Product = function (_Component) {
         value: function componentDidMount() {
             var _this2 = this;
 
-            __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('http://quangqa.com/api/products').then(function (response) {
+            __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('http://192.168.1.23/maxshop/maxshop/public/index.php/api/products').then(function (response) {
                 _this2.setState({ products: response.data.data });
             });
         }
@@ -39253,7 +39253,7 @@ var Product = function (_Component) {
                                 null,
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                     'a',
-                                    { 'data-filter': '.category7', href: '#' },
+                                    { 'data-filter': '.category11', href: '#' },
                                     'more',
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-angle-down' })
                                 )
@@ -39269,7 +39269,7 @@ var Product = function (_Component) {
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'a',
                                         null,
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: "images/" + product.img, alt: 'Product' }),
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: "http://192.168.1.23/maxshop/maxshop/public/" + product.img, alt: 'Product', style: { width: 270, height: 300 } }),
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             'h5',
                                             null,
