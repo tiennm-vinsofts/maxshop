@@ -38472,7 +38472,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-
 var Index = function (_Component) {
     _inherits(Index, _Component);
 
