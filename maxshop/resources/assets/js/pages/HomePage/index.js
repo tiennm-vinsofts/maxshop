@@ -7,11 +7,8 @@ import Deal from './Deal';
 import Testimonial from './Testimonial';
 import Latest from './Latest';
 import Selling from './Selling';
-<<<<<<< HEAD
 
-=======
 import Client from './Clients';
->>>>>>> loi
 
 class Home extends Component {
     componentDidMount(){
@@ -21,10 +18,7 @@ class Home extends Component {
         return (
             <div>
                 <Slide/>
-<<<<<<< HEAD
-=======
                 <Category />
->>>>>>> loi
                 <Product/>
                 <Collection/>
                 <Deal/>
