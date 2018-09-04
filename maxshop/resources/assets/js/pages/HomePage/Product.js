@@ -48,7 +48,7 @@ export default class Product extends Component {
                                 return (
                                     <li key={product.id} className={'product category'+product.category_id}>
                                         <a >
-                                            <img src="images/{product.Img}" alt="Product" />
+                                            <img src={"images/"+product.img} alt="Product" />
                                             <h5>{product.name}</h5>
 
                                             <span className="price"><del>${product.priceold}</del>${product.pricenew}</span>
