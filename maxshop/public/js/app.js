@@ -14141,7 +14141,7 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(20);
-module.exports = __webpack_require__(69);
+module.exports = __webpack_require__(70);
 
 
 /***/ }),
@@ -37968,6 +37968,7 @@ module.exports = ReactPropTypesSecret;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Testimonial__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Latest__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Selling__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Category__ = __webpack_require__(69);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -37975,6 +37976,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -38004,6 +38006,7 @@ var Home = function (_Component) {
                 null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_HeaderComponent__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_SlideComponent__["a" /* default */], null),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__Category__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__Product__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__Collection__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__Deal__["a" /* default */], null),
@@ -39001,7 +39004,7 @@ var Footer = function (_Component) {
                 null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "a",
-                  { href: "#", title: true },
+                  { href: "#" },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/ftr-latestpost-1.jpg", alt: "ftr-latestpost" })
                 )
               ),
@@ -39010,7 +39013,7 @@ var Footer = function (_Component) {
                 null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "a",
-                  { href: "#", title: true },
+                  { href: "#" },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/ftr-latestpost-2.jpg", alt: "ftr-latestpost" })
                 )
               ),
@@ -39019,7 +39022,7 @@ var Footer = function (_Component) {
                 null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "a",
-                  { href: "#", title: true },
+                  { href: "#" },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/ftr-latestpost-3.jpg", alt: "ftr-latestpost" })
                 )
               ),
@@ -39028,7 +39031,7 @@ var Footer = function (_Component) {
                 null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "a",
-                  { href: "#", title: true },
+                  { href: "#" },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/ftr-latestpost-4.jpg", alt: "ftr-latestpost" })
                 )
               ),
@@ -39037,7 +39040,7 @@ var Footer = function (_Component) {
                 null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "a",
-                  { href: "#", title: true },
+                  { href: "#" },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/ftr-latestpost-5.jpg", alt: "ftr-latestpost" })
                 )
               ),
@@ -39046,7 +39049,7 @@ var Footer = function (_Component) {
                 null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "a",
-                  { href: "#", title: true },
+                  { href: "#" },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/ftr-latestpost-6.jpg", alt: "ftr-latestpost" })
                 )
               )
@@ -58319,6 +58322,139 @@ var Selling = function (_Component) {
 
 /***/ }),
 /* 69 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var Category = function (_Component) {
+  _inherits(Category, _Component);
+
+  function Category() {
+    _classCallCheck(this, Category);
+
+    return _possibleConstructorReturn(this, (Category.__proto__ || Object.getPrototypeOf(Category)).apply(this, arguments));
+  }
+
+  _createClass(Category, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "category-section category-section1 container-fluid no-padding" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "container" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "row" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "category-carousel1" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "col-md-12 col-sm-12 col-xs-12" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "div",
+                  { className: "category-box layout-1" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/category-5.jpg", alt: "category" }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "div",
+                    { className: "category-content" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "p",
+                      null,
+                      "shop the latest technologies"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "h5",
+                      null,
+                      "save upto 40%"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "a",
+                      { href: "#", title: "Shop Now" },
+                      "Shop Now"
+                    )
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "col-md-12 col-sm-12 col-xs-12 category-images no-left-padding" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "div",
+                  { className: "category-box layout-3" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/category-6.jpg", alt: "category" }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "div",
+                    { className: "category-content" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "p",
+                      null,
+                      "new homemade Products"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "h5",
+                      null,
+                      "big offers On"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "a",
+                      { href: "#", title: "Shop Now" },
+                      "Shop Now"
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "div",
+                  { className: "category-box layout-4" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/category-7.jpg", alt: "category" }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "div",
+                    { className: "category-content" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "p",
+                      null,
+                      "special offers for kids"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "h5",
+                      null,
+                      "save upto 60%"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      "a",
+                      { href: "#", title: "Shop Now" },
+                      "Shop Now"
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Category;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (Category);
+
+/***/ }),
+/* 70 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

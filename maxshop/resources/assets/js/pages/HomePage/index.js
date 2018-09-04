@@ -8,6 +8,8 @@ import Deal from './Deal';
 import Testimonial from './Testimonial';
 import Latest from './Latest';
 import Selling from './Selling';
+import Category from './Category';
+
 
 class Home extends Component {
     render() {
@@ -15,6 +17,7 @@ class Home extends Component {
             <div>
                 <Header/>
                 <Slide/>
+                <Category/>
                 <Product/>
                 <Collection/>
                 <Deal/>
