@@ -55,7 +55,7 @@
 <!-- Img Field -->
 <div class="form-group">
     {!! Form::label('img', 'Img:') !!}
-    <p>{!! $product->img !!}</p>
+    {{ Html::image($product->img,'anh',['class'=>'img-responsive']) }}
 </div>
 
 <!-- Des Field -->
