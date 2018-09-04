@@ -2,18 +2,20 @@ import React, { Component } from 'react';
 import Header from '../../../components/HeaderComponent';
 import Banner from '../../../components/BannerComponent';
 import Footer from '../../../components/FooterComponent';
-import ContentCheckout from './ContentCheckout';
-class Checkout extends Component {
+import ContentShopSingle from './ContentShopSingle';
+
+class Cart extends Component {
     render() {
         return (
             <div>
                 <Header/>
                 <Banner/>
-                <ContentCheckout/>
-                <Footer/> 
+                <ContentShopSingle/>
+                
+                <Footer/>
             </div>
         );
     }
 }
 
-export default Checkout;
+export default Cart;
