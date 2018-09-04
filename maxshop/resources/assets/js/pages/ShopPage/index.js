@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Header from '../../components/Header';
-import Banner from '../../components/Banner';
-import Footer from '../../components/Footer';
-import Sidebar from '../../components/Sidebar';
+import Header from '../../components/HeaderComponent';
+import Banner from '../../components/BannerComponent';
+import Footer from '../../components/FooterComponent';
+import Sidebar from '../../components/SidebarComponent';
 import ContentArea from './ContentArea';
 
 class Shop extends Component {
@@ -17,8 +17,17 @@ class Shop extends Component {
                     <div className="row">
                     {/* Widget Area */}
                     <Sidebar/>
+                    
                     {/* Content Area */}
                     <ContentArea/>
+                    <nav className="ow-pagination">
+                        <ul className="pager">
+                        <li className="number"><a href="#">4</a></li>
+                        <li className="load-more"><a href="#">Load More</a></li>
+                        <li className="previous"><a href="#"><i className="fa fa-angle-right" /></a></li>
+                        <li className="next"><a href="#"><i className="fa fa-angle-left" /></a></li>
+                        </ul>
+                    </nav>
                     </div>
                 </div>{/* Container /- */}
                 </div>
