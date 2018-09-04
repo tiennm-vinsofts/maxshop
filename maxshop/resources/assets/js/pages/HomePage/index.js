@@ -9,8 +9,6 @@ import Latest from './Latest';
 import Selling from './Selling';
 import Client from './Clients';
 
-import Client from './Clients';
-
 class Home extends Component {
     componentDidMount(){
 

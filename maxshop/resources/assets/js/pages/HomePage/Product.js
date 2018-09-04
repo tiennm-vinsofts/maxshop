@@ -8,7 +8,7 @@ export default class Product extends Component {
         super(props);
         this.state = {
             products: [],
-            
+
         }
     }
     componentDidMount() {
@@ -49,11 +49,9 @@ export default class Product extends Component {
                                 return (
                                     <li key={product.id} className={'product category'+product.category_id}>
                                         <a >
-<<<<<<< HEAD
                                             <img src={"http://192.168.1.23/maxshop/maxshop/public/"+product.img} alt="Product" style={{width: 270, height: 300}}/>
-=======
-                                            <img src={"http://192.168.1.23/maxshop/maxshop/public/"+product.img} alt="Product" style={{width:270,height:300}} />
->>>>>>> origin/quang
+
+                                       
                                             <h5>{product.name}</h5>
 
                                             <span className="price"><del>${product.priceold}</del>${product.pricenew}</span>
