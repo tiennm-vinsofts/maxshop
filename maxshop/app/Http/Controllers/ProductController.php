@@ -57,6 +57,10 @@ class ProductController extends AppBaseController
     public function store(CreateProductRequest $request)
     {
         $input = $request->all();
+<<<<<<< HEAD
+=======
+
+>>>>>>> quang
         $product = $this->productRepository->create($input);
 
         Flash::success('Product saved successfully.');
@@ -100,6 +104,10 @@ class ProductController extends AppBaseController
 
             return redirect(route('products.index'));
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> quang
         $category_list = Category::pluck('name', 'id');
         return view('products.edit',compact('category_list'))->with('product', $product);
     }
