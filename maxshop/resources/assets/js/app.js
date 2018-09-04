@@ -14,5 +14,7 @@ require('./bootstrap');
  */
 
 // require('./components/Header');
-require('./components');
+require('./index');
+
+
 

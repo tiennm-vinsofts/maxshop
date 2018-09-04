@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route} from 'react-router-dom';
 
-const Routers = route => (
+const RouterSubs = route => (
     <Route 
         path={route.path}
         render = {props => (
@@ -9,4 +9,5 @@ const Routers = route => (
             )}
     />
 );
-export default Routers;
+
+export default RouterSubs;

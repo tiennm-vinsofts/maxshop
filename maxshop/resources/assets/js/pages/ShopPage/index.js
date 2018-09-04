@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../../components/HeaderComponent';
 import Banner from '../../components/BannerComponent';
-import Footer from '../../components/FooterComponent';
 import Sidebar from '../../components/SidebarComponent';
 import ContentArea from './ContentArea';
 
@@ -9,7 +7,6 @@ class Shop extends Component {
     render() {
         return (
             <div>
-                <Header/>
                 <Banner/>
                 <div className="product-section product-section1 product-section2 container-fluid no-padding">
                 {/* Container */}
@@ -31,7 +28,6 @@ class Shop extends Component {
                     </div>
                 </div>{/* Container /- */}
                 </div>
-                <Footer/>
             </div>
         );
     }

@@ -67,6 +67,6 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script>
 
         <!-- Library - Theme JS -->
-        <script src="js/functions.js"></script>
+        <script src="js/functions.js" async></script>
     </body>
 </html>
