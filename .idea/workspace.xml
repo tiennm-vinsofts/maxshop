@@ -2,150 +2,184 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95627b6-b040-4801-9707-d907ee75475a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/img/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/maxshop.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/api_data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/api_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/api_project.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/api_project.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/css/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/index.min.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/locale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/pt_br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/locales/zh_cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/utils/handlebars_helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/utils/send_sample_request.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/utils/send_sample_request.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/diff_match_patch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/handlebars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/list.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/lodash.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/path-to-regexp/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/path-to-regexp/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/polyfill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-Splus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-aea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-agc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-apollo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-cbm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-cl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-clj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-dart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-erl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-erlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-hs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lasso.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lassoscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-latex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lgt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lisp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-ll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-llvm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-logtalk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-ls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lsp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-matlab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-mumps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-nemerle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-pascal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-proto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-rd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-rkt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-rust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-s.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-scala.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-scm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-ss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-swift.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-tcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-tex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-vb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-vbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-vhd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-vhdl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-wiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-xq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-xquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-yml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/run_prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/require.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/semver.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxshop/apidoc/vendor/webfontloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maxshop/app/Http/Controllers/AppBaseController.php" afterPath="$PROJECT_DIR$/maxshop/app/Http/Controllers/AppBaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php" afterPath="$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maxshop/public/js/app.js" afterPath="$PROJECT_DIR$/maxshop/public/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/Categories/Cart/index.js" afterPath="$PROJECT_DIR$/maxshop/resources/assets/js/pages/Categories/Cart/index.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/maxshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/maxshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/api_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/api_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/api_project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/api_project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/img/glyphicons-halflings-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/img/glyphicons-halflings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/index.min.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/pt_br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/locales/zh_cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/utils/handlebars_helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/utils/send_sample_request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/utils/send_sample_request.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap-responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/diff_match_patch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/handlebars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/list.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/lodash.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/path-to-regexp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-Splus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-aea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-agc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-apollo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-cbm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-cl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-clj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-erl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-go.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-hs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lasso.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lassoscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-latex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lgt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-ll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-llvm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-logtalk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-ls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lsp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-matlab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-ml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-mumps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-nemerle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-pascal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-rd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-rkt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-rust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-s.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-scala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-scm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-ss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-swift.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-tex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-vb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-vbs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-vhd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-vhdl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-wiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-xq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-xquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/lang-yml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/prettify/run_prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/require.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/semver.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/apidoc/vendor/webfontloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxshop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/maxshop/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/maxshop/composer.json</pharConfigPath>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="742314420">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="env" value="1" />
+          <entry key="json" value="1" />
+          <entry key="php" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="PHP" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="env" value="31" />
+          <entry key="php" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="6" />
+          <entry key="PLAIN_TEXT" value="31" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="334">
+              <caret line="103" column="59" selection-start-line="103" selection-start-column="59" selection-end-line="103" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -163,6 +197,8 @@
         <option value="$PROJECT_DIR$/maxshop/config/app.php" />
         <option value="$PROJECT_DIR$/maxshop/app/Http/Controllers/AppBaseController.php" />
         <option value="$PROJECT_DIR$/maxshop/apidoc.json" />
+        <option value="$PROJECT_DIR$/maxshop/.env" />
+        <option value="$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php" />
       </list>
     </option>
   </component>
@@ -175,13 +211,112 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/maxshop/node_modules" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/maxshop/package.json" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/infyomlabs/laravel-generator/templates/vuejs/js/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="de8afe7f-169a-4de6-bd9a-77e208c3cf3d" name="localhost" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/maxshop/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/prettus/laravel-validation" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/prettus/l5-repository" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/laracasts/flash" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/infyomlabs/generator-builder" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/infyomlabs/adminlte-templates" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/infyomlabs/swagger-generator" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/infyomlabs/laravel-generator" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/composer" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/jlapp/swaggervel" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/maxshop/vendor/psy/psysh" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="48" />
     <option name="y" value="-11" />
     <option name="width" value="1873" />
@@ -191,46 +326,63 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maxshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maxshop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maxshop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="maxshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maxshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maxshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maxshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maxshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maxshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+              <item name="maxshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shopapi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -249,8 +401,8 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -262,118 +414,79 @@
       <workItem from="1535597959466" duration="1519000" />
       <workItem from="1535599506415" duration="177000" />
       <workItem from="1535703242947" duration="939000" />
+      <workItem from="1536032355022" duration="350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2645000" />
+    <option name="totallyTimeSpent" value="3033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-11" width="1873" height="1092" extended-state="6" />
+    <frame x="51" y="-4" width="1869" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25808218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4483871" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26110807" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4497908" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/maxshop/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="126" column="40" lean-forward="true" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="771" column="9" lean-forward="false" selection-start-line="771" selection-start-column="9" selection-end-line="771" selection-end-column="9" />
+          <caret line="771" column="9" selection-start-line="771" selection-start-column="9" selection-end-line="771" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maxshop/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="143" column="18" lean-forward="false" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="18" />
+          <caret line="143" column="18" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maxshop/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/maxshop/config/trustedproxy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-666">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-666" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maxshop/config/tinker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/maxshop/config/swaggervel.php" />
     <entry file="file://$PROJECT_DIR$/maxshop/vendor/bin/openapi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/maxshop/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -382,46 +495,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2772">
           <caret line="126" column="40" lean-forward="true" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/apidoc/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/maxshop/apidoc.json" />
+    <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/AppBaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxshop/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maxshop/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/apidoc/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/apidoc.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/AppBaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maxshop/app/Http/Controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="334">
+          <caret line="103" column="59" selection-start-line="103" selection-start-column="59" selection-end-line="103" selection-end-column="59" />
         </state>
       </provider>
     </entry>
