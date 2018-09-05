@@ -43519,6 +43519,7 @@ var routes = [{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_SlideComponent__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_SlideComponent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_SlideComponent__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Category__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Product__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Collection__ = __webpack_require__(101);
@@ -43565,7 +43566,7 @@ var Home = function (_Component) {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 null,
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_SlideComponent__["a" /* default */], null),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_SlideComponent___default.a, null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Category__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__Collection__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__Deal__["a" /* default */], null),
@@ -43584,215 +43585,10 @@ var Home = function (_Component) {
 
 /***/ }),
 /* 98 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, __webpack_exports__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_jquery__);
-var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-
-var Slide = function (_Component) {
-    _inherits(Slide, _Component);
-
-    function Slide(props) {
-        _classCallCheck(this, Slide);
-
-        var _this = _possibleConstructorReturn(this, (Slide.__proto__ || Object.getPrototypeOf(Slide)).call(this, props));
-
-        _this.state = {
-            slides: []
-        };
-        return _this;
-    }
-
-    _createClass(Slide, [{
-        key: "componentDidMount",
-        value: function componentDidMount() {
-            var _this2 = this;
-
-            axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* default */].urlapi + 'slides').then(function (response) {
-                _this2.setState({ slides: response.data.data });
-            });
-            this.reloadAnimation();
-        }
-    }, {
-        key: "reloadAnimation",
-        value: function reloadAnimation() {
-            var _document$getElements = document.getElementsByTagName('script'),
-                _document$getElements2 = _slicedToArray(_document$getElements, 1),
-                head = _document$getElements2[0];
-
-            var script = document.createElement('script');
-            script.type = 'text/javascript';
-            script.src = 'js/functions.js';
-            head.appendChild(script);
-        }
-    }, {
-        key: "render",
-        value: function render() {
-            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { id: "home-revslider", className: "slider-section slider-section-1 container-fluid no-padding" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "div",
-                    { className: "rev_slider_wrapper" },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "div",
-                        { id: "home-slider2", className: "rev_slider", "data-version": 5.0 },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "ul",
-                            null,
-                            this.state.slides.map(function (slide) {
-                                return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                    "li",
-                                    { key: slide.id, "data-transition": "zoomout", "data-slotamount": "default", "data-easein": "easeInOut",
-                                        "data-easeout": "easeInOut", "data-masterspeed": 2000, "data-rotate": 0, "data-fstransition": "fade",
-                                        "data-fsmasterspeed": 1500, "data-fsslotamount": 7 },
-                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: slide.img, alt: "slider", "data-bgposition": "center center", "data-bgfit": "cover",
-                                        "data-bgrepeat": "no-repeat", "data-bgparallax": 10, className: "rev-slidebg", "data-no-retina": true }),
-                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                        "div",
-                                        { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-1",
-                                            "data-x": "['center','center','center','center']", "data-hoffset": "['120','30','-80','-70']",
-                                            "data-y": "['top','top','top','top']", "data-voffset": "['300','200','150','70']",
-                                            "data-fontsize": "['48','38','30','16']", "data-lineheight": "['30','30','30','30']",
-                                            "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
-                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
-                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
-                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
-                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000,
-                                            "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on",
-                                            "data-elementdelay": "0.05", style: {
-                                                zIndex: 5,
-                                                whiteSpace: 'nowrap',
-                                                letterSpacing: '1.92px',
-                                                position: 'relative',
-                                                color: '#333',
-                                                fontWeight: 'normal',
-                                                fontFamily: '"Arizonia", cursive'
-                                            } },
-                                        slide.title
-                                    ),
-                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                        "div",
-                                        { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-2",
-                                            "data-x": "['center','center','center','center']", "data-hoffset": "['250','130','-10','-30']",
-                                            "data-y": "['top','top','top','top']", "data-voffset": "['365','260','200','100']",
-                                            "data-fontsize": "['48','38','30','16']", "data-lineheight": "['30','30','30','30']",
-                                            "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
-                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
-                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
-                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
-                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000,
-                                            "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on",
-                                            "data-elementdelay": "0.05", style: {
-                                                zIndex: 5,
-                                                whiteSpace: 'nowrap',
-                                                position: 'relative',
-                                                color: '#b6795f',
-                                                fontWeight: 'normal',
-                                                fontFamily: '"Montserrat", sans-serif',
-                                                textTransform: 'uppercase'
-                                            } },
-                                        slide.title2
-                                    ),
-                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                        "div",
-                                        { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-3",
-                                            "data-x": "['center','center','center','center']", "data-hoffset": "['270','200','100','125']",
-                                            "data-y": "['top','top','top','top']", "data-voffset": "['425','315','245','135']",
-                                            "data-fontsize": "['18','18','18','16']", "data-lineheight": "['27','27','27','27']",
-                                            "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
-                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
-                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
-                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
-                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000,
-                                            "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on",
-                                            "data-elementdelay": "0.05", style: {
-                                                zIndex: 5,
-                                                whiteSpace: 'nowrap',
-                                                letterSpacing: '0.72px',
-                                                position: 'relative',
-                                                color: '#333',
-                                                fontWeight: 'normal',
-                                                fontFamily: '"Lato", sans-serif'
-                                            } },
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            "p",
-                                            null,
-                                            slide.des
-                                        )
-                                    ),
-                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                        "div",
-                                        { className: "tp-caption NotGeneric-Button rev-btn  rs-parallaxlevel-0", id: "slide-layer-4",
-                                            "data-x": "['middle','middle','center','center']", "data-hoffset": "['85','15','-90','-10']",
-                                            "data-y": "['top','top','top','top']", "data-voffset": "['515','410','335','220']",
-                                            "data-fontsize": "['14','14','13','12']", "data-lineheight": "['24','24','24','24']",
-                                            "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
-                                            "data-transform_hover": "o:1;rX:0;rY:0;rZ:0;z:0;s:100;e:Power1.easeInOut;",
-                                            "data-style_hover": "c:rgb(255, 255, 255);bg:rgba(182, 121, 95);",
-                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
-                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
-                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
-                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 2000,
-                                            "data-splitin": "none", "data-splitout": "none",
-                                            "data-actions": "[{\"event\":\"click\",\"action\":\"scrollbelow\",\"offset\":\"0px\"}]",
-                                            "data-responsive_offset": "on", "data-responsive": "off", style: {
-                                                zIndex: 10,
-                                                padding: '8px 38px',
-                                                letterSpacing: '0.56px',
-                                                color: '#b6795f',
-                                                borderColor: '#b6795f',
-                                                fontFamily: '"Montserrat", sans-serif',
-                                                textTransform: 'uppercase',
-                                                backgroundColor: 'transparent',
-                                                whiteSpace: 'nowrap',
-                                                outline: 'none',
-                                                boxShadow: 'none',
-                                                boxSizing: 'border-box',
-                                                MozBoxSizing: 'border-box',
-                                                WebkitBoxSizing: 'border-box'
-                                            } },
-                                        "Shop Now"
-                                    )
-                                );
-                            })
-                        )
-                    )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "div",
-                    { className: "goto-next" },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "a",
-                        { href: "#collection" },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Mouse bounce" })
-                    )
-                )
-            );
-        }
-    }]);
-
-    return Slide;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-/* harmony default export */ __webpack_exports__["a"] = (Slide);
 
 /***/ }),
 /* 99 */
