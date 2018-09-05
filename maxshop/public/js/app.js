@@ -39061,7 +39061,7 @@ var Product = function (_Component) {
             var _this2 = this;
 
             __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('http://192.168.1.23/maxshop/maxshop/public/index.php/api/products').then(function (response) {
-                _this2.setState({ products: response.data.data });
+                _this2.setState({ products: response.data.data.data });
             });
         }
     }, {
@@ -63964,7 +63964,7 @@ var ContentArea = function (_Component) {
             var _this2 = this;
 
             __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('http://192.168.1.23/maxshop/maxshop/public/index.php/api/products').then(function (response) {
-                _this2.setState({ products: response.data.data });
+                _this2.setState({ products: response.data.data.data });
             });
         }
     }, {
