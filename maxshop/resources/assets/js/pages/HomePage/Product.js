@@ -34,12 +34,14 @@ export default class Product extends Component {
             .then(response => {
                 this.setState({
                     products: response.data.data.data,
-                    data:response.data.data
+                    data:response.data
                 });
+
             })
     }
     componentDidMount() {
         this.getData();
+        
     }
 
   render() {

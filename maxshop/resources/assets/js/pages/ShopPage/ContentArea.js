@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 import axios from 'axios';
+import config from '../../config';
 
 class ContentArea extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            products: []
+            products: [],
+            urlproduct:config.urlapi+'products',
         }
     }
     componentDidMount() {
-        axios.get('http://192.168.1.23/maxshop/maxshop/public/index.php/api/products')
+        axios.get(this.state.urlproduct)
             .then(response => {
                 this.setState({ products: response.data.data.data });
             })
