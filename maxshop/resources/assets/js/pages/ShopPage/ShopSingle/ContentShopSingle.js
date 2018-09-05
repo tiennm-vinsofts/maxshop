@@ -1,6 +1,25 @@
 import React, { Component } from 'react';
 
 class ContentShopSingle extends Component {
+constructor(props){
+    super(props);
+}
+
+    reloadAnimation() {
+      const [ head ] = document.getElementsByTagName('script');
+      const script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = 'js/functions.js';
+      head.appendChild(script);
+    }
+    componentWillMount(){
+
+    }
+    componentDidMount() {
+        this.reloadAnimation();
+
+}
+
     render() {
         return (
             <div className="shop-single container-fluid no-padding">

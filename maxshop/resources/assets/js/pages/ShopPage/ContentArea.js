@@ -12,7 +12,7 @@ class ContentArea extends Component {
     componentDidMount() {
         axios.get('http://192.168.1.23/maxshop/maxshop/public/index.php/api/products')
             .then(response => {
-                this.setState({ products: response.data.data });
+                this.setState({ products: response.data.data.data });
             })
 
     }

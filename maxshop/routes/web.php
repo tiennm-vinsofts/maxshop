@@ -11,13 +11,12 @@
 |
 */
 
-     
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/{path?}','welcome');
-
+Route::view('/{path?}/{a?}','welcome');
 Auth::routes();
 
 Route::group(['prefix'=>'backend'],function (){

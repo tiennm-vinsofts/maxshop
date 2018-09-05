@@ -7,13 +7,10 @@ import Deal from './Deal';
 import Testimonial from './Testimonial';
 import Latest from './Latest';
 import Selling from './Selling';
-
 import Client from './Clients';
 
+import jquery from 'jquery';
 class Home extends Component {
-    componentDidMount(){
-
-    }
     render() {
         return (
             <div>

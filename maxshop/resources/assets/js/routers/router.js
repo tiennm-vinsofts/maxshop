@@ -8,6 +8,7 @@ import Single from '../pages/ShopPage/ShopSingle';
 import BlogPost from '../pages/BlogPage/BlogPost';
 import Cart from '../pages/CategoriesPage/Cart';
 import Checkout from '../pages/CategoriesPage/Checkout';
+import Contact from '../pages/ContactPage';
 
 export const routes = [
     {
@@ -41,7 +42,7 @@ export const routes = [
         exact: false
     },
     {
-        path: '/single',
+        path: '/single/:id',
         component: Single,
         exact:false
     },
@@ -58,6 +59,11 @@ export const routes = [
     {
         path: '/checkout',
         component: Checkout,
+        exact:false
+    },
+    {
+        path: '/contact',
+        component: Contact,
         exact:false
     }
 ];

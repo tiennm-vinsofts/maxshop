@@ -39,7 +39,6 @@
 (function($) {
 
 	"use strict"
-	
 	/* - Selling Section */
 	function selling_img() {
 		var width = $(window).width();

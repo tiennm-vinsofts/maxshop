@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import config from '../../config';
+import { Link} from 'react-router-dom';
 
 export default class Product extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
+
             urlproduct:config.urlapi+'products',
             page: 1,
             products: [],
@@ -32,10 +34,14 @@ export default class Product extends Component {
     getData() {
         axios.get(this.state.urlproduct)
             .then(response => {
+
                 this.setState({
                     products: response.data.data.data,
                     data:response.data.data
                 });
+
+                this.setState({ products: response.data.data.data });
+
             })
     }
     componentDidMount() {
@@ -73,7 +79,9 @@ export default class Product extends Component {
                                 return (
                                     <li key={product.id} className={'product category'+product.category_id}>
                                         <a >
-                                            <img src={config.urlsever+product.img} alt="Product" style={{width:270,height:300}} />
+                                        <Link to={"/single/"+product.id}><img src={config.urlsever+product.img} alt="Product" style={{width:270,height:300}} /></Link>
+
+
                                             <h5>{product.name}</h5>
 
                                             <span className="price"><del>${product.priceold}</del>${product.pricenew}</span>
