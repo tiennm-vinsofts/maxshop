@@ -12,12 +12,6 @@ class ContentShopSingle extends Component {
                     <div className="item">
                       <img src="images/product.jpg" alt="product" />
                     </div>
-                    <div className="item">
-                      <img src="images/product.jpg" alt="product" />
-                    </div>
-                    <div className="item">
-                      <img src="images/product.jpg" alt="product" />
-                    </div>
                   </div>
                 </div>
                 {/* Entry Summary */}

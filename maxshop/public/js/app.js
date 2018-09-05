@@ -11946,6 +11946,8 @@ var matchPath = function matchPath(pathname) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__SearchComponent__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CategoriesComponent__ = __webpack_require__(147);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11953,6 +11955,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
 
 
 
@@ -11966,338 +11970,297 @@ var Sidebar = function (_Component) {
   }
 
   _createClass(Sidebar, [{
-    key: "render",
+    key: 'render',
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { className: "col-md-4 col-sm-4 col-xs-12 widget-area no-right-padding" },
+        'div',
+        { className: 'col-md-4 col-sm-4 col-xs-12 widget-area no-right-padding' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__SearchComponent__["a" /* default */], null),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__CategoriesComponent__["a" /* default */], null),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "aside",
-          { className: "widget widget_search" },
+          'aside',
+          { className: 'widget widget_latest_post' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "h3",
-            { className: "widget-title" },
-            "Search"
+            'h3',
+            { className: 'widget-title' },
+            'recent posts'
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "input-group" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { type: "text", className: "form-control", placeholder: "Search You Wants. . ." }),
+            'div',
+            { className: 'latest-box' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "span",
-              { className: "input-group-btn" },
+              'div',
+              { className: 'post-box' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "button",
-                { className: "btn btn-search", title: "Search", type: "button" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Search" })
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "aside",
-          { className: "widget widget_categories" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "h3",
-            { className: "widget-title" },
-            "Categories"
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "ul",
-            null,
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "li",
-              null,
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#", title: "Beautiful Chairs" },
-                "Beautiful Chairs ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "(5)"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "li",
-              null,
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#", title: "Creative Designs" },
-                "Creative Designs ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "(6)"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "li",
-              null,
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#", title: "Trendy Products" },
-                "Trendy Products ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "(4)"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "li",
-              null,
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#", title: "Interior Products" },
-                "Interior Products ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "(2)"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "li",
-              null,
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#", title: "Popular Products" },
-                "Popular Products ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "(8)"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "li",
-              null,
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#", title: "Casual Shirts" },
-                "Casual Shirts ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "(7)"
-                )
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "aside",
-          { className: "widget widget_price_filter" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "h3",
-            { className: "widget-title" },
-            "filter by price"
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "price-filter" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { id: "slider-range" }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "price-input" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { id: "amount" }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { id: "amount2" })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "#", title: "filter" },
-              "Filter"
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "aside",
-          { className: "widget widget_latest_post" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "h3",
-            { className: "widget-title" },
-            "recent posts"
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "latest-box" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "post-box" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/latest-post-1.jpg", alt: "Post" })
+                'a',
+                { href: '#' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/latest-post-1.jpg', alt: 'Post' })
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "h5",
+                'h5',
                 null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "need max shop." },
-                  "I Phone 6s sales on"
+                  'a',
+                  { href: '#', title: 'need max shop.' },
+                  'need max shop'
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "star-rating" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star-o" })
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "price" },
+                'span',
+                null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "del",
-                  null,
-                  "$955"
+                  'a',
+                  { className: 'calendar', href: '#' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-calendar-o' }),
+                  'July 20, 2016'
                 ),
-                "$789"
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-heart-o' }),
+                  ' 224 Likes'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'Posted By Max'
+                )
               )
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "latest-box" },
+            'div',
+            { className: 'latest-box' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "post-box" },
+              'div',
+              { className: 'post-box' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/latest-post-2.jpg", alt: "Post" })
+                'a',
+                { href: '#' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/latest-post-2.jpg', alt: 'Post' })
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "h5",
+                'h5',
                 null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "need max shop." },
-                  "mens casual footwear"
+                  'a',
+                  { href: '#', title: 'Commenly use products' },
+                  'Commenly use products'
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "star-rating" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star-o" })
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "price" },
+                'span',
+                null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "del",
-                  null,
-                  "$185"
+                  'a',
+                  { className: 'calendar', href: '#' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-calendar-o' }),
+                  'June 18, 2016'
                 ),
-                "$120"
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-heart-o' }),
+                  ' 224 Likes'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'Posted By Max'
+                )
               )
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "latest-box" },
+            'div',
+            { className: 'latest-box' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "post-box" },
+              'div',
+              { className: 'post-box' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/latest-post-3.jpg", alt: "Post" })
+                'a',
+                { href: '#' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/latest-post-3.jpg', alt: 'Post' })
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "h5",
+                'h5',
                 null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "need max shop." },
-                  "running shoes"
+                  'a',
+                  { href: '#', title: 'chairs are beautiful' },
+                  'chairs are beautiful'
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "div",
-                { className: "star-rating" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star" }),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-star-o" })
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "price" },
+                'span',
+                null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "del",
-                  null,
-                  "$150"
+                  'a',
+                  { className: 'calendar', href: '#' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-calendar-o' }),
+                  'May 23, 2016'
                 ),
-                "$85"
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-heart-o' }),
+                  ' 224 Likes'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'Posted By Max'
+                )
               )
             )
           )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "aside",
-          { className: "widget widget_tags" },
+          'aside',
+          { className: 'widget widget_tags' },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "h3",
-            { className: "widget-title" },
-            "popular tags"
+            'h3',
+            { className: 'widget-title' },
+            'popular tags'
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "tags-box" },
+            'div',
+            { className: 'tags-box' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "#", title: "Chairs" },
-              "Chairs"
+              'a',
+              { href: '#', title: 'Chairs' },
+              'Chairs'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "#", title: "Modern Designs" },
-              "Modern Designs"
+              'a',
+              { href: '#', title: 'Modern Designs' },
+              'Modern Designs'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "#", title: "Watches" },
-              "Watches"
+              'a',
+              { href: '#', title: 'Watches' },
+              'Watches'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "#", title: "Future" },
-              "Future"
+              'a',
+              { href: '#', title: 'Future' },
+              'Future'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "#", title: "Popular Products" },
-              "Popular Products"
+              'a',
+              { href: '#', title: 'Popular Products' },
+              'Popular Products'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "#", title: "Trendy" },
-              "Trendy"
+              'a',
+              { href: '#', title: 'Trendy' },
+              'Trendy'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "#", title: "Interier" },
-              "Interier"
+              'a',
+              { href: '#', title: 'Interier' },
+              'Interier'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "#", title: "Modern" },
-              "Modern"
+              'a',
+              { href: '#', title: 'Modern' },
+              'Modern'
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'aside',
+          { className: 'widget widget_tweets' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h3',
+            { className: 'widget-title' },
+            'latest tweets'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { id: 'main-carousel1', className: 'carousel slide carousel-fade', 'data-ride': 'carousel' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'ol',
+              { className: 'carousel-indicators' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('li', { 'data-target': '#main-carousel1', 'data-slide-to': 0, className: 'active' }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('li', { 'data-target': '#main-carousel1', 'data-slide-to': 1 }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('li', { 'data-target': '#main-carousel1', 'data-slide-to': 2 })
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { role: 'listbox', className: 'carousel-inner' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'item active' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h5',
+                  null,
+                  'tweet@John max'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'p',
+                  null,
+                  'MAX SHOP - Creative Minimal Portfolio WordPress Theme by @ifathemes'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'http://goo.gl/6CbMtH'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  null,
+                  '5 Hours ago'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'item' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h5',
+                  null,
+                  'tweet@John max'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'p',
+                  null,
+                  'MAX SHOP - Creative Minimal Portfolio WordPress Theme by @ifathemes'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'http://goo.gl/6CbMtH'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  null,
+                  '5 Hours ago'
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'item' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h5',
+                  null,
+                  'tweet@John max'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'p',
+                  null,
+                  'MAX SHOP - Creative Minimal Portfolio WordPress Theme by @ifathemes'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'http://goo.gl/6CbMtH'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  null,
+                  '5 Hours ago'
+                )
+              )
             )
           )
         )
@@ -42910,8 +42873,8 @@ var Navbar = function (_Component) {
                   'li',
                   { className: 'active dropdown' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-                    { to: '/', title: 'Home', className: 'dropdown-toggle', role: 'button', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
+                    'a',
+                    { href: '/', title: 'Home', className: 'dropdown-toggle', role: 'button', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
                     'Home'
                   )
                 ),
@@ -43458,6 +43421,8 @@ var Footer = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_BlogPage_BlogPost__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_CategoriesPage_Cart__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_CategoriesPage_Checkout__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_ContactPage__ = __webpack_require__(144);
+
 
 
 
@@ -43509,6 +43474,10 @@ var routes = [{
     path: '/checkout',
     component: __WEBPACK_IMPORTED_MODULE_9__pages_CategoriesPage_Checkout__["a" /* default */],
     exact: false
+}, {
+    path: '/contact',
+    component: __WEBPACK_IMPORTED_MODULE_10__pages_ContactPage__["a" /* default */],
+    exact: false
 }];
 
 /***/ }),
@@ -43519,7 +43488,6 @@ var routes = [{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_SlideComponent__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_SlideComponent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_SlideComponent__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Category__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Product__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Collection__ = __webpack_require__(101);
@@ -43566,8 +43534,9 @@ var Home = function (_Component) {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 null,
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_SlideComponent___default.a, null),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_SlideComponent__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Category__["a" /* default */], null),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Product__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__Collection__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__Deal__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__Testimonial__["a" /* default */], null),
@@ -43585,10 +43554,227 @@ var Home = function (_Component) {
 
 /***/ }),
 /* 98 */
-/***/ (function(module, __webpack_exports__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_jquery__);
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+var Slide = function (_Component) {
+    _inherits(Slide, _Component);
+
+    function Slide(props) {
+        _classCallCheck(this, Slide);
+
+        var _this = _possibleConstructorReturn(this, (Slide.__proto__ || Object.getPrototypeOf(Slide)).call(this, props));
+
+        _this.state = {
+            slides: []
+        };
+        return _this;
+    }
+
+    _createClass(Slide, [{
+        key: "reloadAnimation",
+        value: function reloadAnimation() {
+            var _document$getElements = document.getElementsByTagName('script'),
+                _document$getElements2 = _slicedToArray(_document$getElements, 1),
+                head = _document$getElements2[0];
+
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'js/functions.js';
+            head.appendChild(script);
+        }
+    }, {
+        key: "componentDidMount",
+        value: function componentDidMount() {
+            var _this2 = this;
+
+            // setTimeout(()=>{
+            // },1000)
+            axios.get(__WEBPACK_IMPORTED_MODULE_1__config__["a" /* default */].urlapi + 'slides').then(function (response) {
+                _this2.setState({ slides: response.data.data });
+            });
+            this.reloadAnimation();
+        }
+    }, {
+        key: "componentWillMount",
+        value: function componentWillMount() {
+            var _this3 = this;
+
+            setTimeout(function () {
+
+                _this3.reloadAnimation();
+            }, 1000);
+        }
+    }, {
+        key: "render",
+        value: function render() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { id: "home-revslider", className: "slider-section slider-section-1 container-fluid no-padding" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "div",
+                    { className: "rev_slider_wrapper" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "div",
+                        { id: "home-slider2", className: "rev_slider", "data-version": 5.0 },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            "ul",
+                            null,
+                            this.state.slides.map(function (slide) {
+                                return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    "li",
+                                    { key: slide.id, "data-transition": "zoomout", "data-slotamount": "default", "data-easein": "easeInOut",
+                                        "data-easeout": "easeInOut", "data-masterspeed": 2000, "data-rotate": 0, "data-fstransition": "fade",
+                                        "data-fsmasterspeed": 1500, "data-fsslotamount": 7 },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: slide.img, alt: "slider", "data-bgposition": "center center", "data-bgfit": "cover",
+                                        "data-bgrepeat": "no-repeat", "data-bgparallax": 10, className: "rev-slidebg", "data-no-retina": true }),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        "div",
+                                        { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-1",
+                                            "data-x": "['center','center','center','center']", "data-hoffset": "['120','30','-80','-70']",
+                                            "data-y": "['top','top','top','top']", "data-voffset": "['300','200','150','70']",
+                                            "data-fontsize": "['48','38','30','16']", "data-lineheight": "['30','30','30','30']",
+                                            "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
+                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
+                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
+                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
+                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000,
+                                            "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on",
+                                            "data-elementdelay": "0.05", style: {
+                                                zIndex: 5,
+                                                whiteSpace: 'nowrap',
+                                                letterSpacing: '1.92px',
+                                                position: 'relative',
+                                                color: '#333',
+                                                fontWeight: 'normal',
+                                                fontFamily: '"Arizonia", cursive'
+                                            } },
+                                        slide.title
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        "div",
+                                        { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-2",
+                                            "data-x": "['center','center','center','center']", "data-hoffset": "['250','130','-10','-30']",
+                                            "data-y": "['top','top','top','top']", "data-voffset": "['365','260','200','100']",
+                                            "data-fontsize": "['48','38','30','16']", "data-lineheight": "['30','30','30','30']",
+                                            "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
+                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
+                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
+                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
+                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000,
+                                            "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on",
+                                            "data-elementdelay": "0.05", style: {
+                                                zIndex: 5,
+                                                whiteSpace: 'nowrap',
+                                                position: 'relative',
+                                                color: '#b6795f',
+                                                fontWeight: 'normal',
+                                                fontFamily: '"Montserrat", sans-serif',
+                                                textTransform: 'uppercase'
+                                            } },
+                                        slide.title2
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        "div",
+                                        { className: "tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0", id: "slide-layer-3",
+                                            "data-x": "['center','center','center','center']", "data-hoffset": "['270','200','100','125']",
+                                            "data-y": "['top','top','top','top']", "data-voffset": "['425','315','245','135']",
+                                            "data-fontsize": "['18','18','18','16']", "data-lineheight": "['27','27','27','27']",
+                                            "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
+                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
+                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
+                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
+                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 1000,
+                                            "data-splitin": "chars", "data-splitout": "none", "data-responsive_offset": "on",
+                                            "data-elementdelay": "0.05", style: {
+                                                zIndex: 5,
+                                                whiteSpace: 'nowrap',
+                                                letterSpacing: '0.72px',
+                                                position: 'relative',
+                                                color: '#333',
+                                                fontWeight: 'normal',
+                                                fontFamily: '"Lato", sans-serif'
+                                            } },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            "p",
+                                            null,
+                                            slide.des
+                                        )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        "div",
+                                        { className: "tp-caption NotGeneric-Button rev-btn  rs-parallaxlevel-0", id: "slide-layer-4",
+                                            "data-x": "['middle','middle','center','center']", "data-hoffset": "['85','15','-90','-10']",
+                                            "data-y": "['top','top','top','top']", "data-voffset": "['515','410','335','220']",
+                                            "data-fontsize": "['14','14','13','12']", "data-lineheight": "['24','24','24','24']",
+                                            "data-width": "none", "data-height": "none", "data-whitespace": "nowrap", "data-transform_idle": "o:1;",
+                                            "data-transform_hover": "o:1;rX:0;rY:0;rZ:0;z:0;s:100;e:Power1.easeInOut;",
+                                            "data-style_hover": "c:rgb(255, 255, 255);bg:rgba(182, 121, 95);",
+                                            "data-transform_in": "x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;",
+                                            "data-transform_out": "y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;",
+                                            "data-mask_in": "x:0px;y:0px;s:inherit;e:inherit;",
+                                            "data-mask_out": "x:inherit;y:inherit;s:inherit;e:inherit;", "data-start": 2000,
+                                            "data-splitin": "none", "data-splitout": "none",
+                                            "data-actions": "[{\"event\":\"click\",\"action\":\"scrollbelow\",\"offset\":\"0px\"}]",
+                                            "data-responsive_offset": "on", "data-responsive": "off", style: {
+                                                zIndex: 10,
+                                                padding: '8px 38px',
+                                                letterSpacing: '0.56px',
+                                                color: '#b6795f',
+                                                borderColor: '#b6795f',
+                                                fontFamily: '"Montserrat", sans-serif',
+                                                textTransform: 'uppercase',
+                                                backgroundColor: 'transparent',
+                                                whiteSpace: 'nowrap',
+                                                outline: 'none',
+                                                boxShadow: 'none',
+                                                boxSizing: 'border-box',
+                                                MozBoxSizing: 'border-box',
+                                                WebkitBoxSizing: 'border-box'
+                                            } },
+                                        "Shop Now"
+                                    )
+                                );
+                            })
+                        )
+                    )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "div",
+                    { className: "goto-next" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "#collection" },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Mouse bounce" })
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Slide;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (Slide);
 
 /***/ }),
 /* 99 */
@@ -43735,8 +43921,6 @@ var Category = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config__ = __webpack_require__(39);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -43751,17 +43935,16 @@ var Product = function (_Component) {
     _inherits(Product, _Component);
 
     function Product(props) {
-        var _this$state;
-
         _classCallCheck(this, Product);
 
         var _this = _possibleConstructorReturn(this, (Product.__proto__ || Object.getPrototypeOf(Product)).call(this, props));
 
-        _this.state = (_this$state = {
+        _this.state = {
             products: [],
             urlproduct: __WEBPACK_IMPORTED_MODULE_2__config__["a" /* default */].urlapi + 'products',
-            page: 1
-        }, _defineProperty(_this$state, 'products', []), _defineProperty(_this$state, 'data', []), _this$state);
+            page: 1,
+            data: []
+        };
 
         return _this;
     }
@@ -44020,7 +44203,7 @@ var Product = function (_Component) {
     return Product;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-/* unused harmony default export */ var _unused_webpack_default_export = (Product);
+/* harmony default export */ __webpack_exports__["a"] = (Product);
 
 /***/ }),
 /* 101 */
@@ -45282,6 +45465,9 @@ var Clients = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_BannerComponent__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_SidebarComponent__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ContentArea__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_SearchComponent__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_CategoriesComponent__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_PopulaComponent__ = __webpack_require__(148);
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -45291,6 +45477,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
 
 
 
@@ -45378,7 +45567,170 @@ var Shop = function (_Component) {
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'div',
                             { className: 'row' },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_SidebarComponent__["a" /* default */], null),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'div',
+                                { className: 'col-md-4 col-sm-4 col-xs-12 widget-area no-right-padding' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_SearchComponent__["a" /* default */], null),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_CategoriesComponent__["a" /* default */], null),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'aside',
+                                    { className: 'widget widget_price_filter' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'h3',
+                                        { className: 'widget-title' },
+                                        'filter by price'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'div',
+                                        { className: 'price-filter' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { id: 'slider-range' }),
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'div',
+                                            { className: 'price-input' },
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { id: 'amount' }),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { id: 'amount2' })
+                                        ),
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'a',
+                                            { href: '#', title: 'filter' },
+                                            'Filter'
+                                        )
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'aside',
+                                    { className: 'widget widget_latest_post' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'h3',
+                                        { className: 'widget-title' },
+                                        'recent posts'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'div',
+                                        { className: 'latest-box' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'div',
+                                            { className: 'post-box' },
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'a',
+                                                { href: '#' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/latest-post-1.jpg', alt: 'Post' })
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'h5',
+                                                null,
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'a',
+                                                    { href: '#', title: 'need max shop.' },
+                                                    'I Phone 6s sales on'
+                                                )
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'star-rating' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star-o' })
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'span',
+                                                { className: 'price' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'del',
+                                                    null,
+                                                    '$955'
+                                                ),
+                                                '$789'
+                                            )
+                                        )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'div',
+                                        { className: 'latest-box' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'div',
+                                            { className: 'post-box' },
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'a',
+                                                { href: '#' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/latest-post-2.jpg', alt: 'Post' })
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'h5',
+                                                null,
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'a',
+                                                    { href: '#', title: 'need max shop.' },
+                                                    'mens casual footwear'
+                                                )
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'star-rating' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star-o' })
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'span',
+                                                { className: 'price' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'del',
+                                                    null,
+                                                    '$185'
+                                                ),
+                                                '$120'
+                                            )
+                                        )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'div',
+                                        { className: 'latest-box' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'div',
+                                            { className: 'post-box' },
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'a',
+                                                { href: '#' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/latest-post-3.jpg', alt: 'Post' })
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'h5',
+                                                null,
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'a',
+                                                    { href: '#', title: 'need max shop.' },
+                                                    'running shoes'
+                                                )
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'div',
+                                                { className: 'star-rating' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star' }),
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-star-o' })
+                                            ),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                'span',
+                                                { className: 'price' },
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                                    'del',
+                                                    null,
+                                                    '$150'
+                                                ),
+                                                '$85'
+                                            )
+                                        )
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_PopulaComponent__["a" /* default */], null)
+                            ),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__ContentArea__["a" /* default */], null),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'nav',
@@ -63431,6 +63783,24 @@ var Blog = function (_Component) {
     }
 
     _createClass(Blog, [{
+        key: 'updateState',
+        value: function updateState(tien) {
+
+            if (tien == 1) {
+                if (this.state.data.last_page == this.state.page) {
+                    return;
+                }
+                this.state.page++;
+            } else {
+                if (1 == this.state.page) {
+                    return;
+                }
+                this.state.page--;
+            }
+            this.state.urlproduct = config.urlapi + 'products?page=' + this.state.page;
+            this.getData();
+        }
+    }, {
         key: 'render',
         value: function render() {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -63542,6 +63912,7 @@ var Blog = function (_Component) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config__ = __webpack_require__(39);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -63552,434 +63923,135 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
 var BlogContent = function (_Component) {
-  _inherits(BlogContent, _Component);
+    _inherits(BlogContent, _Component);
 
-  function BlogContent() {
-    _classCallCheck(this, BlogContent);
+    function BlogContent(props) {
+        _classCallCheck(this, BlogContent);
 
-    return _possibleConstructorReturn(this, (BlogContent.__proto__ || Object.getPrototypeOf(BlogContent)).apply(this, arguments));
-  }
+        var _this = _possibleConstructorReturn(this, (BlogContent.__proto__ || Object.getPrototypeOf(BlogContent)).call(this, props));
 
-  _createClass(BlogContent, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { className: "content-area blog-section col-md-8 col-sm-8 col-xs-12" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "type-post" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "col-md-5 col-sm-12 col-xs-12 no-padding entry-cover" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "blog-post.html" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/blog-1.jpg", alt: "blog" })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "span",
-              { className: "post-date" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-calendar-o" }),
-                "July 16"
-              )
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "col-md-7 col-sm-12 col-xs-12 blog-content" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "h3",
-              { className: "entry-title" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { title: "new Collectios are imported In Our shop.", href: "blog-post.html" },
-                "new Collectios are ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "imported"
-                ),
-                " In Our shop."
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "entry-meta" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "post-like" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "224 Likes" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-heart-o" }),
-                  "224 Likes"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "post-admin" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-user" }),
-                "Posted By",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "Max" },
-                  "Max"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "entry-content" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "p",
-                null,
-                "The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless If not for the courage of the Minnow would be lost."
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "blog-post.html", title: "Read More", className: "read-more" },
-                "Read More",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-long-arrow-right" })
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "type-post" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "col-md-5 col-sm-12 col-xs-12 no-padding entry-cover" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "blog-post.html" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/blog-2.jpg", alt: "blog" })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "span",
-              { className: "post-date" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-calendar-o" }),
-                "May 22"
-              )
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "col-md-7 col-sm-12 col-xs-12 blog-content" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "h3",
-              { className: "entry-title" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { title: "Our shop visitor's new look", href: "blog-post.html" },
-                "Our shop visitor's ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "new look"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "entry-meta" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "post-like" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "145 Likes" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-heart-o" }),
-                  "145 Likes"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "post-admin" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-user" }),
-                "Posted By",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "Max" },
-                  "Max"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "entry-content" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "p",
-                null,
-                "The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless If not for the courage of the Minnow would be lost."
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "blog-post.html", title: "Read More", className: "read-more" },
-                "Read More",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-long-arrow-right" })
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "type-post" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "col-md-5 col-sm-12 col-xs-12 no-padding entry-cover" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "blog-post.html" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/blog-3.jpg", alt: "blog" })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "span",
-              { className: "post-date" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-calendar-o" }),
-                "June 18"
-              )
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "col-md-7 col-sm-12 col-xs-12 blog-content" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "h3",
-              { className: "entry-title" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { title: "buyers are saying it's good shop", href: "blog-post.html" },
-                "buyers are saying it's ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "good shop"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "entry-meta" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "post-like" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "150 Likes" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-heart-o" }),
-                  "150 Likes"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "post-admin" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-user" }),
-                "Posted By",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "Max" },
-                  "Max"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "entry-content" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "p",
-                null,
-                "The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless If not for the courage of the Minnow would be lost."
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "blog-post.html", title: "Read More", className: "read-more" },
-                "Read More",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-long-arrow-right" })
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "type-post" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "col-md-5 col-sm-12 col-xs-12 no-padding entry-cover" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "blog-post.html" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/blog-4.jpg", alt: "blog" })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "span",
-              { className: "post-date" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-calendar-o" }),
-                "July 14 "
-              )
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "col-md-7 col-sm-12 col-xs-12 blog-content" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "h3",
-              { className: "entry-title" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { title: "Happy Customers enjoying in the street", href: "blog-post.html" },
-                "Happy Customers ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "enjoying"
-                ),
-                " in the street"
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "entry-meta" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "post-like" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "230 Likes" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-heart-o" }),
-                  "230 Likes"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "post-admin" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-user" }),
-                "Posted By",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "Max" },
-                  "Max"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "entry-content" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "p",
-                null,
-                "The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless If not for the courage of the Minnow would be lost."
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "blog-post.html", title: "Read More", className: "read-more" },
-                "Read More",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-long-arrow-right" })
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "div",
-          { className: "type-post" },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "col-md-5 col-sm-12 col-xs-12 no-padding entry-cover" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { href: "blog-post.html" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/blog-5.jpg", alt: "blog" })
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "span",
-              { className: "post-date" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "#" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-calendar-o" }),
-                "May 17"
-              )
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            "div",
-            { className: "col-md-7 col-sm-12 col-xs-12 blog-content" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "h3",
-              { className: "entry-title" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { title: "Best Solds in the this year was watches ", href: "blog-post.html" },
-                "Best Solds in the this year was ",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "span",
-                  null,
-                  "watches"
-                ),
-                " "
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "entry-meta" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "post-like" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "120 Likes" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-heart-o" }),
-                  "120 Likes"
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "span",
-                { className: "post-admin" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-user" }),
-                "Posted By",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "a",
-                  { href: "#", title: "Max" },
-                  "Max"
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "div",
-              { className: "entry-content" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "p",
-                null,
-                "The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless If not for the courage of the Minnow would be lost."
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                "a",
-                { href: "blog-post.html", title: "Read More", className: "read-more" },
-                "Read More",
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-long-arrow-right" })
-              )
-            )
-          )
-        )
-      );
+        _this.state = {
+            products: [],
+            urlproduct: __WEBPACK_IMPORTED_MODULE_1__config__["a" /* default */].urlapi + 'products',
+            page: 1,
+            data: []
+        };
+
+        return _this;
     }
-  }]);
 
-  return BlogContent;
+    _createClass(BlogContent, [{
+        key: 'getData',
+        value: function getData() {
+            var _this2 = this;
+
+            axios.get(this.state.urlproduct).then(function (response) {
+                _this2.setState({
+                    products: response.data.data.data,
+                    data: response.data.data
+                });
+            });
+        }
+    }, {
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            this.getData();
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'content-area blog-section col-md-8 col-sm-8 col-xs-12' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'type-post' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'col-md-5 col-sm-12 col-xs-12 no-padding entry-cover' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'a',
+                            { href: 'blog-post' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/blog-1.jpg', alt: 'blog' })
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'span',
+                            { className: 'post-date' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'a',
+                                { href: '#' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-calendar-o' }),
+                                'July 16'
+                            )
+                        )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'col-md-7 col-sm-12 col-xs-12 blog-content' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'h3',
+                            { className: 'entry-title' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'a',
+                                { title: 'new Collectios are imported In Our shop.', href: 'blog-post.html' },
+                                'new Collectios are ',
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'span',
+                                    null,
+                                    'imported'
+                                ),
+                                ' In Our shop.'
+                            )
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'div',
+                            { className: 'entry-meta' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'span',
+                                { className: 'post-like' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'a',
+                                    { href: '#', title: '224 Likes' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-heart-o' }),
+                                    '224 Likes'
+                                )
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'span',
+                                { className: 'post-admin' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-user' }),
+                                'Posted By',
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'a',
+                                    { href: '#', title: 'Max' },
+                                    'Max'
+                                )
+                            )
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'div',
+                            { className: 'entry-content' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'p',
+                                null,
+                                'The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless If not for the courage of the Minnow would be lost.'
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'a',
+                                { href: 'blog-post', title: 'Read More', className: 'read-more' },
+                                'Read More',
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-long-arrow-right' })
+                            )
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return BlogContent;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["a"] = (BlogContent);
@@ -65202,16 +65274,6 @@ var ContentShopSingle = function (_Component) {
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "div",
                 { className: "carousel-item" },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "item" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/product.jpg", alt: "product" })
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  "div",
-                  { className: "item" },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/product.jpg", alt: "product" })
-                ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   "div",
                   { className: "item" },
@@ -67019,6 +67081,607 @@ var ContentCheckout = function (_Component) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 140 */,
+/* 141 */,
+/* 142 */,
+/* 143 */,
+/* 144 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_BannerComponent__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ContentContact__ = __webpack_require__(145);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+var Contact = function (_Component) {
+    _inherits(Contact, _Component);
+
+    function Contact() {
+        _classCallCheck(this, Contact);
+
+        return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).apply(this, arguments));
+    }
+
+    _createClass(Contact, [{
+        key: 'render',
+        value: function render() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'page-banner container-fluid no-padding' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'container' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'div',
+                            { className: 'banner-content' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'h3',
+                                null,
+                                'Contact Us'
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'p',
+                                null,
+                                'our vision is to be Earth\'s most customer centric company'
+                            )
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'ol',
+                            { className: 'breadcrumb' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'li',
+                                null,
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'a',
+                                    { href: 'index.html', title: 'Home' },
+                                    'Home'
+                                )
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'li',
+                                { className: 'active' },
+                                'Contact'
+                            )
+                        )
+                    )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__ContentContact__["a" /* default */], null)
+            );
+        }
+    }]);
+
+    return Contact;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (Contact);
+
+/***/ }),
+/* 145 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var ContentContact = function (_Component) {
+  _inherits(ContentContact, _Component);
+
+  function ContentContact() {
+    _classCallCheck(this, ContentContact);
+
+    return _possibleConstructorReturn(this, (ContentContact.__proto__ || Object.getPrototypeOf(ContentContact)).apply(this, arguments));
+  }
+
+  _createClass(ContentContact, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "contact-us container-fluid no-padding" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "col-md-6 col-sm-6 col-xs-12 no-padding" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "contact-detail" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "section-header" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "h3",
+                null,
+                "Get In Touch"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "p",
+                null,
+                "Also Connect With Social Media To Anytime"
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "contact-info" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Pointer" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "p",
+                null,
+                "Max Shop, 65 Huge Street Melbourne,"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "p",
+                null,
+                "2850 Australia."
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "contact-info" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Phone2" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "a",
+                { href: "tel:(11)1234567890", title: "Phone", className: "phone" },
+                "(11) 123 456 7890"
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "contact-info" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Phone2" }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "a",
+                { href: "mailto:info@maxshop.com", title: "info@maxshop.com" },
+                "info@maxshop.com"
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "ul",
+              { className: "social" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "a",
+                  { href: "#", title: "Facebook" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-facebook" })
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "a",
+                  { href: "#", title: "Twitter" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-twitter" })
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "a",
+                  { href: "#", title: "Linkedin" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-linkedin" })
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "a",
+                  { href: "#", title: "Tumblr" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-tumblr" })
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "a",
+                  { href: "#", title: "Vimeo" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-vimeo" })
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "a",
+                  { href: "#", title: "Pinterest" },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-pinterest-p" })
+                )
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "col-md-6 col-sm-6 col-xs-12 no-padding" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "form-detail" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "section-header" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "h3",
+                null,
+                "Send a Message"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "p",
+                null,
+                "Feel Free To Say Everything And Ask Questions"
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "form",
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "col-md-6 col-sm-6 col-xs-12 form-group" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { type: "text", name: "contact-name", className: "form-control", id: "input_name", placeholder: "Full Name *", required: true })
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "col-md-6 col-sm-6 col-xs-12 form-group" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { type: "text", name: "contact-email", className: "form-control", id: "input_email", placeholder: "Email Address *", required: true })
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "col-md-12 col-sm-12 col-xs-12 form-group" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { type: "text", required: true, placeholder: "Subject *", id: "input_subject", className: "form-control", name: "contact-subject" })
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "form-group col-md-12 col-sm-12 col-xs-12" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", { placeholder: "Type Your Message . . .", id: "textarea_message", name: "contact-message", rows: 5, className: "form-control", defaultValue: "" })
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "div",
+                { className: "form-group col-md-12 col-sm-12 col-xs-12" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  "button",
+                  { title: "Submit", type: "submit", id: "btn_submit", name: "post" },
+                  "Send Message"
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { id: "alert-msg", className: "alert-msg" })
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "map container-fluid no-padding" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "map-canvas", id: "map-canvas-contact", "data-lat": "-32.559356", "data-lng": "149.564237", "data-string": "Max Shop, 65 Huge Street Melbourne,  2850 Australia.", "data-zoom": 12 }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "#" },
+            "Max ",
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "span",
+              null,
+              "Shop"
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return ContentContact;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (ContentContact);
+
+/***/ }),
+/* 146 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var SearchComponent = function (_Component) {
+  _inherits(SearchComponent, _Component);
+
+  function SearchComponent() {
+    _classCallCheck(this, SearchComponent);
+
+    return _possibleConstructorReturn(this, (SearchComponent.__proto__ || Object.getPrototypeOf(SearchComponent)).apply(this, arguments));
+  }
+
+  _createClass(SearchComponent, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "aside",
+        { className: "widget widget_search" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "h3",
+          { className: "widget-title" },
+          "Search"
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "input-group" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { type: "text", className: "form-control", placeholder: "Search You Wants. . ." }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "span",
+            { className: "input-group-btn" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "button",
+              { className: "btn btn-search", title: "Search", type: "button" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "icon icon-Search" })
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return SearchComponent;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (SearchComponent);
+
+/***/ }),
+/* 147 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var CategoriesComponent = function (_Component) {
+    _inherits(CategoriesComponent, _Component);
+
+    function CategoriesComponent() {
+        _classCallCheck(this, CategoriesComponent);
+
+        return _possibleConstructorReturn(this, (CategoriesComponent.__proto__ || Object.getPrototypeOf(CategoriesComponent)).apply(this, arguments));
+    }
+
+    _createClass(CategoriesComponent, [{
+        key: "render",
+        value: function render() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "aside",
+                { className: "widget widget_categories" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "h3",
+                    { className: "widget-title" },
+                    "Categories"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "ul",
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "li",
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            "a",
+                            { href: "#", title: "Beautiful Chairs" },
+                            "Beautiful Chairs ",
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                "span",
+                                null,
+                                "(5)"
+                            )
+                        )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "li",
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            "a",
+                            { href: "#", title: "Creative Designs" },
+                            "Creative Designs ",
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                "span",
+                                null,
+                                "(6)"
+                            )
+                        )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "li",
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            "a",
+                            { href: "#", title: "Trendy Products" },
+                            "Trendy Products ",
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                "span",
+                                null,
+                                "(4)"
+                            )
+                        )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "li",
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            "a",
+                            { href: "#", title: "Interior Products" },
+                            "Interior Products ",
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                "span",
+                                null,
+                                "(2)"
+                            )
+                        )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "li",
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            "a",
+                            { href: "#", title: "Popular Products" },
+                            "Popular Products ",
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                "span",
+                                null,
+                                "(8)"
+                            )
+                        )
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "li",
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            "a",
+                            { href: "#", title: "Casual Shirts" },
+                            "Casual Shirts ",
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                "span",
+                                null,
+                                "(7)"
+                            )
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return CategoriesComponent;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (CategoriesComponent);
+
+/***/ }),
+/* 148 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var PopulaComponent = function (_Component) {
+    _inherits(PopulaComponent, _Component);
+
+    function PopulaComponent() {
+        _classCallCheck(this, PopulaComponent);
+
+        return _possibleConstructorReturn(this, (PopulaComponent.__proto__ || Object.getPrototypeOf(PopulaComponent)).apply(this, arguments));
+    }
+
+    _createClass(PopulaComponent, [{
+        key: "render",
+        value: function render() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "aside",
+                { className: "widget widget_tags" },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "h3",
+                    { className: "widget-title" },
+                    "popular tags"
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    "div",
+                    { className: "tags-box" },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "#", title: "Chairs" },
+                        "Chairs"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "#", title: "Modern Designs" },
+                        "Modern Designs"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "#", title: "Watches" },
+                        "Watches"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "#", title: "Future" },
+                        "Future"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "#", title: "Popular Products" },
+                        "Popular Products"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "#", title: "Trendy" },
+                        "Trendy"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "#", title: "Interier" },
+                        "Interier"
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        "a",
+                        { href: "#", title: "Modern" },
+                        "Modern"
+                    )
+                )
+            );
+        }
+    }]);
+
+    return PopulaComponent;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (PopulaComponent);
 
 /***/ })
 /******/ ]);

@@ -10,7 +10,6 @@ export default class Product extends Component {
             products: [],
             urlproduct:config.urlapi+'products',
             page: 1,
-            products: [],
             data: [],
         }
 
@@ -41,7 +40,6 @@ export default class Product extends Component {
     }
     componentDidMount() {
         this.getData();
-
     }
 
   render() {

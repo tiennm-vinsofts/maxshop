@@ -16,7 +16,7 @@ class Home extends Component {
             <div>
                 <Slide/>
                 <Category />
-                
+                <Product/>
                 <Collection/>
                 <Deal/>
                 <Testimonial/>

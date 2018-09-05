@@ -4,6 +4,20 @@ import BlogContent from './BlogContent';
 import Banner from '../../components/BannerComponent';
 
 class Blog extends Component {
+    updateState(tien) {
+
+        if(tien==1){
+            if(this.state.data.last_page==this.state.page){return;
+            }
+            this.state.page++;
+        }else{
+            if(1==this.state.page){return;
+            }
+            this.state.page--;
+        }
+        this.state.urlproduct = config.urlapi+'products?page='+this.state.page;
+        this.getData();
+    }
     render() {
         return (
             <div>

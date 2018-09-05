@@ -21,7 +21,9 @@ class Navbar extends Component {
                   <div className="navbar-collapse collapse" id="navbar">
                     <ul className="nav navbar-nav">
                       <li className="active dropdown">
-                        <Link to="/" title="Home" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</Link>
+                       {/*  <Link to="/" title="Home" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</Link> */}
+                        <a href="/" title="Home" className="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+
                         {/* <i class="ddl-switch fa fa-angle-down"></i>
                                         <ul class="dropdown-menu">				
                                             <li><a href="index.html" title="home 1">home 1</a></li>
