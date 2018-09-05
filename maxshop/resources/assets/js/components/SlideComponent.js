@@ -10,31 +10,23 @@ class Slide extends Component {
         }
     }
     componentDidMount() {
+        
         axios.get(config.urlapi+'slides')
             .then(response => {
                 this.setState({ slides: response.data.data });
             })
-        setTimeout(()=>{
-            // $("#home-slider2").revolution({
-            //     sliderType:"standard",
-            //     sliderLayout:"auto",
-            //     delay:6000,
-            //     navigation: {
-            //         arrows:{
-            //             enable:true,
-            //             style:"uranus"
-            //         }
-            //     },
-            //     responsiveLevels:[1920,1024,768,480],
-            //     gridwidth:[1920,1024,768,480],
-            //     gridheight:[881,675,580,480],
-            // });
-        },1000)
-
+            this.reloadAnimation();
     }
+    reloadAnimation() {
+      const [ head ] = document.getElementsByTagName('script');
+      const script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = 'js/functions.js';
+      head.appendChild(script);
+    }
+
     render() {
         return (
-         
       <div id="home-revslider" className="slider-section slider-section-1 container-fluid no-padding">
       
       <div className="rev_slider_wrapper">

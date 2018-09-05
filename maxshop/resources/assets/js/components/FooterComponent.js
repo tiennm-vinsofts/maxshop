@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 class Footer extends Component {
     render() {
         return (
-
-
           <footer id="footer-main" className="footer-main footer-main-1 services-section container-fluid">
             {/* Container */}
             <div className="container">

@@ -36,8 +36,7 @@
 		- Site Loader
 */
 
-export const func = (function($) {
-
+(function($) {
 	"use strict"
 	
 	/* - Selling Section */
