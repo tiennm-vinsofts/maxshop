@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
 
 class Slide extends Component {
+    reloadAnimation() {
+      const [ head ] = document.getElementsByTagName('script');
+      const script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = 'js/functions.js';
+      head.appendChild(script);
+    }
+      componentDidMount(){
+        this.reloadAnimation();
+      }
+
     render() {
         return (
-         
       <div id="home-revslider" className="slider-section slider-section-1 container-fluid no-padding">
       
       <div className="rev_slider_wrapper">

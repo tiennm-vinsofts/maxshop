@@ -6,6 +6,16 @@ import TestimonialSection from './TestimonialSection';
 import Clients from './Clients';
 
 class About extends Component {
+    reloadAnimation() {
+        const [ head ] = document.getElementsByTagName('script');
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'js/functions.js';
+        head.appendChild(script);
+      }
+        componentDidMount(){
+          this.reloadAnimation();
+        }
     render() {
         return (
             <div>

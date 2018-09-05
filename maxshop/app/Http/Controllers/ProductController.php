@@ -102,7 +102,8 @@ class ProductController extends AppBaseController
             return redirect(route('products.index'));
         }
 
-        return view('products.edit')->with('product', $product);
+        $category_list = Category::pluck('name', 'id');
+        return view('products.edit',compact('category_list'))->with('product', $product);
     }
 
     /**

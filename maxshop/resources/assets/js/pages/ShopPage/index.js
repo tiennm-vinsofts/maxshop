@@ -4,6 +4,16 @@ import Sidebar from '../../components/SidebarComponent';
 import ContentArea from './ContentArea';
 
 class Shop extends Component {
+    reloadAnimation() {
+        const [ head ] = document.getElementsByTagName('script');
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'js/functions.js';
+        head.appendChild(script);
+      }
+        componentDidMount(){
+          this.reloadAnimation();
+        }
     render() {
         return (
             <div>
