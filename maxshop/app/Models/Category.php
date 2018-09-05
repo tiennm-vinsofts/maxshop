@@ -44,5 +44,5 @@ class Category extends Model
         'name' => 'required'
     ];
 
-    
+
 }

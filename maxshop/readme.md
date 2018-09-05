@@ -63,3 +63,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Api Docs
+
+5.6x 
+
+composer require "darkaonline/l5-swagger:5.6.*"
+
+php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
+
+L5Swagger\L5SwaggerServiceProvider::class,
+
+composer require 'zircote/swagger-php:2.*'
+
+SWAGGER_VERSION=2.0
+L5_SWAGGER_GENERATE_ALWAYS=true
+
+ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
+ 
+ l5-swagger:generate
