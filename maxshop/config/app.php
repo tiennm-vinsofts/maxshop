@@ -222,6 +222,7 @@ return [
         'Flash'     => Laracasts\Flash\Flash::class,
         'JWTAuth'   => Tymon\JWTAuth\Facades\JWTAuth::class,
         'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
+        'Helper'     => App\Helpers\Helper::class,
     ],
 
 ];

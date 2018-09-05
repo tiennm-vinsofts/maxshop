@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ReactDom from 'react-dom';
 import axios from 'axios';
+import config from '../../config';
 
 export default class Product extends Component {
 
@@ -8,14 +8,39 @@ export default class Product extends Component {
         super(props);
         this.state = {
             products: [],
-
+            urlproduct:config.urlapi+'products',
+            page: 1,
+            products: [],
+            data: [],
         }
+
+    }
+
+    updateState(tien) {
+
+        if(tien==1){
+            if(this.state.data.last_page==this.state.page){return;
+            }
+            this.state.page++;
+        }else{
+            if(1==this.state.page){return;
+            }
+            this.state.page--;
+        }
+        this.state.urlproduct = config.urlapi+'products?page='+this.state.page;
+        this.getData();
+    }
+    getData() {
+        axios.get(this.state.urlproduct)
+            .then(response => {
+                this.setState({
+                    products: response.data.data.data,
+                    data:response.data.data
+                });
+            })
     }
     componentDidMount() {
-        axios.get('http://192.168.1.23/maxshop/maxshop/public/index.php/api/products')
-            .then(response => {
-                this.setState({ products: response.data.data.data });
-            })
+        this.getData();
 
     }
 
@@ -49,9 +74,7 @@ export default class Product extends Component {
                                 return (
                                     <li key={product.id} className={'product category'+product.category_id}>
                                         <a >
-                                            <img src={"http://192.168.1.23/maxshop/maxshop/public/"+product.img} alt="Product" style={{width: 270, height: 300}}/>
-
-                                       
+                                            <img src={config.urlsever+product.img} alt="Product" style={{width:270,height:300}} />
                                             <h5>{product.name}</h5>
 
                                             <span className="price"><del>${product.priceold}</del>${product.pricenew}</span>
@@ -70,10 +93,10 @@ export default class Product extends Component {
             </div>{/* Row /- */}
             <nav className="ow-pagination">
               <ul className="pager">
-                <li className="number"><a href="#">4</a></li>
+                <li className="number"><a href="#">{this.state.page}</a></li>
                 <li className="load-more"><a href="#">Load More</a></li>
-                <li className="previous"><a href="#"><i className="fa fa-angle-right" /></a></li>
-                <li className="next"><a href="#"><i className="fa fa-angle-left" /></a></li>
+                <li className="previous"><a onClick = {() => this.updateState(1)}><i className="fa fa-angle-right" /></a></li>
+                <li className="next"><a onClick = {() => this.updateState(2)}><i className="fa fa-angle-left" /></a></li>
               </ul>
             </nav>
           </div>{/* Container /- */}

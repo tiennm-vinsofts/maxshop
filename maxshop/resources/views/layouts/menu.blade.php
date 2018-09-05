@@ -18,3 +18,7 @@
     <a href="{!! route('orderItems.index') !!}"><i class="fa fa-edit"></i><span>Order Items</span></a>
 </li>
 
+<li class="{{ Request::is('slides*') ? 'active' : '' }}">
+    <a href="{!! route('slides.index') !!}"><i class="fa fa-edit"></i><span>Slides</span></a>
+</li>
+

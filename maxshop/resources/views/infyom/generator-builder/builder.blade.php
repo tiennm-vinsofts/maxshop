@@ -235,7 +235,7 @@
 
         $(document).ready(function () {
             var htmlStr = '<tr class="item" style="display: table-row;"></tr>';
-            var commonComponent = $(htmlStr).filter("tr").load('{!! url('') !!}/field_template');
+            var commonComponent = $(htmlStr).filter("tr").load('{!! url('backend') !!}/field_template');
 
             $("#btnAdd").on("click", function () {
                 var item = $(commonComponent).clone();
@@ -318,7 +318,7 @@
                 data['_token'] = $('#token').val();
 
                 $.ajax({
-                    url: '{!! url('') !!}/generator_builder/generate',
+                    url: '{!! url('backend') !!}/generator_builder/generate',
                    // type: "POST",
                     method: "POST",
                     dataType: 'json',

@@ -19,20 +19,27 @@ Route::get('/', function () {
 Route::view('/{path?}','welcome');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::group(['prefix'=>'backend'],function (){
 
-Route::get('generator_builder', '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@builder');
+    Route::get('/home', 'HomeController@index');
 
-Route::get('field_template', '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@fieldTemplate');
+    Route::get('generator_builder', '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@builder');
 
-Route::post('generator_builder/generate', '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@generate');
+    Route::get('field_template', '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@fieldTemplate');
 
-Route::resource('categories', 'CategoryController');
+    Route::post('generator_builder/generate', '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@generate');
 
-Route::resource('products', 'ProductController');
+    Route::resource('categories', 'CategoryController');
 
-Route::resource('countries', 'CountryController');
+    Route::resource('products', 'ProductController');
 
-Route::resource('orders', 'OrderController');
+    Route::resource('countries', 'CountryController');
 
-Route::resource('orderItems', 'OrderItemController');
+    Route::resource('orders', 'OrderController');
+
+    Route::resource('orderItems', 'OrderItemController');
+
+    Route::resource('slides', 'SlideController');
+});
+
+
