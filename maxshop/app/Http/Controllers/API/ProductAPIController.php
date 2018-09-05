@@ -38,12 +38,7 @@ class ProductAPIController extends AppBaseController
         $this->productRepository->pushCriteria(new RequestCriteria($request));
         $this->productRepository->pushCriteria(new LimitOffsetCriteria($request));
 
-        $sort = $request->sort;
-        if(isset($sort)){
-            $products = $this->productRepository->orderBy($sort,'desc')->all();
-        }else{
-            $products = $this->productRepository->paginate(1);
-        }
+        $products = $this->productRepository->paginate(8);
 
         return $this->sendResponse($products->toArray(), 'Products retrieved successfully');
     }

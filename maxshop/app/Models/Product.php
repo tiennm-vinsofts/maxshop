@@ -68,5 +68,10 @@ class Product extends Model
         'name' => 'required'
     ];
 
+    public function categorie()
+    {
+
+        return $this->belongsTo(Category::class, 'category_id');
+    }
 
 }
