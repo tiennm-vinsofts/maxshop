@@ -32,15 +32,16 @@ Route::group(['prefix'=>'backend'],function (){
 
     Route::resource('categories', 'CategoryController');
 
-    Route::resource('products', 'ProductController');
+    Route::resource('products', 'ProductsController');
 
-    Route::resource('countries', 'CountryController');
-
-    Route::resource('orders', 'OrderController');
+    Route::resource('countries', 'CountriesController');
 
     Route::resource('orderItems', 'OrderItemController');
 
+    Route::resource('orders', 'OrdersController');
+
+    Route::resource('blogs', 'BlogsController');
+
     Route::resource('slides', 'SlideController');
+
 });
-
-

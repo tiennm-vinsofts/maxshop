@@ -4,8 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\CreateOrderItemRequest;
 use App\Http\Requests\UpdateOrderItemRequest;
-use App\Models\Order;
-use App\Models\Product;
 use App\Repositories\OrderItemRepository;
 use Flash;
 use Illuminate\Http\Request;
@@ -44,9 +42,7 @@ class OrderItemController extends AppBaseController
      */
     public function create()
     {
-        $product_list = Product::pluck('name', 'id');
-        $order_list = Order::pluck('id', 'id');
-        return view('order_items.create', compact('product_list', 'order_list'));
+        return view('order_items.create');
     }
 
     /**

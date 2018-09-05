@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Country;
+use App\Models\Countries;
 use Illuminate\Database\Seeder;
 
 class MockDataCountryTableSeeder extends Seeder
@@ -12,7 +12,7 @@ class MockDataCountryTableSeeder extends Seeder
      */
     public function run()
     {
-        Country::truncate();
-        factory(App\Models\Country::class, 20)->create();
+        Countries::truncate();
+        factory(App\Models\Countries::class, 20)->create();
     }
 }

@@ -2,8 +2,9 @@
     <thead>
         <tr>
             <th>User Id</th>
+            <th>Country Id</th>
+            <th>Totalmoney</th>
         <th>Status</th>
-        <th>Countrie Id</th>
         <th>Address</th>
         <th>First Name</th>
         <th>Last Name</th>
@@ -15,33 +16,34 @@
         <th>Phone</th>
         <th>State</th>
         <th>Zipcode</th>
-        <th>Totalmoney</th>
             <th colspan="3">Action</th>
         </tr>
     </thead>
     <tbody>
-    @foreach($orders as $order)
+    @foreach($orders as $orders)
         <tr>
-            <td>{!! $order->user_id !!}</td>
-            <td>{!! $order->status !!}</td>
-            <td>{!! $order->countrie_id !!}</td>
-            <td>{!! $order->address !!}</td>
-            <td>{!! $order->first_name !!}</td>
-            <td>{!! $order->last_name !!}</td>
-            <td>{!! $order->office_home_others !!}</td>
-            <td>{!! $order->address1 !!}</td>
-            <td>{!! $order->address2 !!}</td>
-            <td>{!! $order->city !!}</td>
-            <td>{!! $order->email !!}</td>
-            <td>{!! $order->phone !!}</td>
-            <td>{!! $order->state !!}</td>
-            <td>{!! $order->zipcode !!}</td>
-            <td>{!! $order->totalmoney !!}</td>
+            <td>{!! $orders->user_id !!}</td>
+            <td>{!! $orders->country_id !!}</td>
+            <td>{!! $orders->totalmoney !!}</td>
+            <td>{!! $orders->status !!}</td>
+            <td>{!! $orders->address !!}</td>
+            <td>{!! $orders->first_name !!}</td>
+            <td>{!! $orders->last_name !!}</td>
+            <td>{!! $orders->office_home_others !!}</td>
+            <td>{!! $orders->address1 !!}</td>
+            <td>{!! $orders->address2 !!}</td>
+            <td>{!! $orders->city !!}</td>
+            <td>{!! $orders->email !!}</td>
+            <td>{!! $orders->phone !!}</td>
+            <td>{!! $orders->state !!}</td>
+            <td>{!! $orders->zipcode !!}</td>
             <td>
-                {!! Form::open(['route' => ['orders.destroy', $order->id], 'method' => 'delete']) !!}
+                {!! Form::open(['route' => ['orders.destroy', $orders->id], 'method' => 'delete']) !!}
                 <div class='btn-group'>
-                    <a href="{!! route('orders.show', [$order->id]) !!}" class='btn btn-default btn-xs'><i class="glyphicon glyphicon-eye-open"></i></a>
-                    <a href="{!! route('orders.edit', [$order->id]) !!}" class='btn btn-default btn-xs'><i class="glyphicon glyphicon-edit"></i></a>
+                    <a href="{!! route('orders.show', [$orders->id]) !!}" class='btn btn-default btn-xs'><i
+                                class="glyphicon glyphicon-eye-open"></i></a>
+                    <a href="{!! route('orders.edit', [$orders->id]) !!}" class='btn btn-default btn-xs'><i
+                                class="glyphicon glyphicon-edit"></i></a>
                     {!! Form::button('<i class="glyphicon glyphicon-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-xs', 'onclick' => "return confirm('Are you sure?')"]) !!}
                 </div>
                 {!! Form::close() !!}

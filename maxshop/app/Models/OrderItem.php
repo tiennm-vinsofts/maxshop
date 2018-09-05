@@ -6,14 +6,52 @@ use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * Class OrderItem
- * @package App\Models
- * @version August 31, 2018, 2:56 am UTC
- *
- * @property integer order_id
- * @property integer product_id
- * @property float money
- * @property integer quantity
+ * @SWG\Definition(
+ *      definition="OrderItem",
+ *      required={"money", "quantity"},
+ *      @SWG\Property(
+ *          property="id",
+ *          description="id",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="created_at",
+ *          description="created_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="updated_at",
+ *          description="updated_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="order_id",
+ *          description="order_id",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="product_id",
+ *          description="product_id",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="money",
+ *          description="money",
+ *          type="number",
+ *          format="float"
+ *      ),
+ *      @SWG\Property(
+ *          property="quantity",
+ *          description="quantity",
+ *          type="integer",
+ *          format="int32"
+ *      )
+ * )
  */
 class OrderItem extends Model
 {

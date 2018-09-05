@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class OrderItemRepository
  * @package App\Repositories
- * @version August 31, 2018, 2:56 am UTC
+ * @version September 5, 2018, 7:45 am UTC
  *
  * @method OrderItem findWithoutFail($id, $columns = ['*'])
  * @method OrderItem find($id, $columns = ['*'])

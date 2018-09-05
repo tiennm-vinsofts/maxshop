@@ -1,3 +1,9 @@
+<!-- Totalmoney Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('totalmoney', 'Totalmoney:') !!}
+    {!! Form::number('totalmoney', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Status Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('status', 'Status:') !!}
@@ -68,12 +74,6 @@
 <div class="form-group col-sm-6">
     {!! Form::label('zipcode', 'Zipcode:') !!}
     {!! Form::text('zipcode', null, ['class' => 'form-control']) !!}
-</div>
-
-<!-- Totalmoney Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('totalmoney', 'Totalmoney:') !!}
-    {!! Form::number('totalmoney', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Submit Field -->

@@ -6,11 +6,33 @@ use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * Class Category
- * @package App\Models
- * @version August 31, 2018, 1:52 am UTC
- *
- * @property string name
+ * @SWG\Definition(
+ *      definition="Category",
+ *      required={"name"},
+ *      @SWG\Property(
+ *          property="id",
+ *          description="id",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="created_at",
+ *          description="created_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="updated_at",
+ *          description="updated_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="name",
+ *          description="name",
+ *          type="string"
+ *      )
+ * )
  */
 class Category extends Model
 {
@@ -44,5 +66,9 @@ class Category extends Model
         'name' => 'required'
     ];
 
-
+    public function products()
+    {
+        return $this->hasMany(Products::class);
+    }
+    
 }

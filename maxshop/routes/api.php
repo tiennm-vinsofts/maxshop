@@ -26,15 +26,19 @@ Route::group([], function () {
     });
 });
 
-
 Route::resource('categories', 'CategoryAPIController');
 
-Route::resource('products', 'ProductAPIController');
+Route::resource('products', 'ProductsAPIController');
 
-Route::resource('countries', 'CountryAPIController');
+Route::resource('products', 'ProductsAPIController');
 
-Route::resource('orders', 'OrderAPIController');
+Route::resource('countries', 'CountriesAPIController');
 
 Route::resource('order_items', 'OrderItemAPIController');
 
+Route::resource('orders', 'OrdersAPIController');
+
+Route::resource('blogs', 'BlogsAPIController');
+
 Route::resource('slides', 'SlideAPIController');
+Route::delete('backend/slides/{slides}', 'SlideAPIController@destroy');

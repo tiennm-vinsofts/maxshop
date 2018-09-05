@@ -5,22 +5,19 @@ namespace App\Http\Controllers;
 use App\Http\Requests\CreateSlideRequest;
 use App\Http\Requests\UpdateSlideRequest;
 use App\Repositories\SlideRepository;
-use App\Http\Controllers\AppBaseController;
-use Illuminate\Http\Request;
 use Flash;
+use Illuminate\Http\Request;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
-use App\Helpers\Helper;
+
 class SlideController extends AppBaseController
 {
     /** @var  SlideRepository */
     private $slideRepository;
-    private $helper;
 
-    public function __construct(SlideRepository $slideRepo,Helper $helper)
+    public function __construct(SlideRepository $slideRepo)
     {
         $this->slideRepository = $slideRepo;
-        $this->helper = $helper;
     }
 
     /**
@@ -58,13 +55,12 @@ class SlideController extends AppBaseController
     public function store(CreateSlideRequest $request)
     {
         $input = $request->all();
-        $input['img'] = $this->helper->uploadImage('img');
 
         $slide = $this->slideRepository->create($input);
 
         Flash::success('Slide saved successfully.');
 
-        return redirect(route('slides.index'));
+        return redirect(route('backend.slides.index'));
     }
 
     /**
@@ -81,7 +77,7 @@ class SlideController extends AppBaseController
         if (empty($slide)) {
             Flash::error('Slide not found');
 
-            return redirect(route('slides.index'));
+            return redirect(route('backend.slides.index'));
         }
 
         return view('slides.show')->with('slide', $slide);
@@ -101,7 +97,7 @@ class SlideController extends AppBaseController
         if (empty($slide)) {
             Flash::error('Slide not found');
 
-            return redirect(route('slides.index'));
+            return redirect(route('backend.slides.index'));
         }
 
         return view('slides.edit')->with('slide', $slide);
@@ -118,22 +114,18 @@ class SlideController extends AppBaseController
     public function update($id, UpdateSlideRequest $request)
     {
         $slide = $this->slideRepository->findWithoutFail($id);
-        $input = $request->all();
+
         if (empty($slide)) {
             Flash::error('Slide not found');
 
-            return redirect(route('slides.index'));
+            return redirect(route('backend.slides.index'));
         }
-        if(isset($request->img)){
-            $input['img'] = $this->helper->uploadImage('img');
-        }else{
-            $input['img'] = $slide['img'];
-        }
-        $slide = $this->slideRepository->update($input, $id);
+
+        $slide = $this->slideRepository->update($request->all(), $id);
 
         Flash::success('Slide updated successfully.');
 
-        return redirect(route('slides.index'));
+        return redirect(route('backend.slides.index'));
     }
 
     /**
@@ -150,13 +142,13 @@ class SlideController extends AppBaseController
         if (empty($slide)) {
             Flash::error('Slide not found');
 
-            return redirect(route('slides.index'));
+            return redirect(route('backend.slides.index'));
         }
 
         $this->slideRepository->delete($id);
 
         Flash::success('Slide deleted successfully.');
 
-        return redirect(route('slides.index'));
+        return redirect(route('backend.slides.index'));
     }
 }

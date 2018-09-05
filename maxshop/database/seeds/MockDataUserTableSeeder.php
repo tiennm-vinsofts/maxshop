@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Order;
+use App\Models\Orders;
 use App\User;
 use Illuminate\Database\Seeder;
 
@@ -13,7 +13,7 @@ class MockDataUserTableSeeder extends Seeder
      */
     public function run()
     {
-        Order::truncate();
+        Orders::truncate();
         User::truncate();
         // Let's make sure everyone has the same password and
         // let's hash it before the loop, or else our seeder

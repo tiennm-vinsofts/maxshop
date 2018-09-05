@@ -2,15 +2,13 @@
 <div class="form-group col-sm-6">
     {!! Form::label('img', 'Img:') !!}
     {!! Form::file('img') !!}
-    {{--@if(isset( $product->img))--}}
-        {{--{{ Html::image($product->img,'anh',['class'=>'img-responsive']) }}--}}
-    {{--@endif--}}
 </div>
+<div class="clearfix"></div>
 
 <!-- Des Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('des', 'Des:') !!}
-    {!! Form::text('des', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('des', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Title Field -->
@@ -20,9 +18,9 @@
 </div>
 
 <!-- Title2 Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('title2', 'Title2:') !!}
-    {!! Form::text('title2', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('title2', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Submit Field -->

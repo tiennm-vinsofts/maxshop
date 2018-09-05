@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class SlideRepository
  * @package App\Repositories
- * @version September 4, 2018, 9:24 am UTC
+ * @version September 5, 2018, 8:10 am UTC
  *
  * @method Slide findWithoutFail($id, $columns = ['*'])
  * @method Slide find($id, $columns = ['*'])

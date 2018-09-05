@@ -6,15 +6,38 @@ use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * Class Slide
- * @package App\Models
- * @version September 4, 2018, 9:24 am UTC
- *
- * @property string img
- * @property longText des
- * @property string title
- * @property string title2
- * @property string linkto
+ * @SWG\Definition(
+ *      definition="Slide",
+ *      required={""},
+ *      @SWG\Property(
+ *          property="id",
+ *          description="id",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="created_at",
+ *          description="created_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="updated_at",
+ *          description="updated_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="img",
+ *          description="img",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="title",
+ *          description="title",
+ *          type="string"
+ *      )
+ * )
  */
 class Slide extends Model
 {
@@ -40,8 +63,7 @@ class Slide extends Model
      */
     protected $casts = [
         'img' => 'string',
-        'title' => 'string',
-        'title2' => 'string'
+        'title' => 'string'
     ];
 
     /**

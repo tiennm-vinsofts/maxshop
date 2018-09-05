@@ -33,8 +33,8 @@
     {!! Form::label('img', 'Img:') !!}
     {!! Form::file('img') !!}
     @if(isset( $product->img))
-    {{ Html::image($product->img,'anh',['class'=>'img-responsive']) }}
-        @endif
+        {{ Html::image($product->img,'anh',['class'=>'img-responsive']) }}
+    @endif
 </div>
 <div class="clearfix"></div>
 
@@ -55,6 +55,24 @@
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('des2', 'Des2:') !!}
     {!! Form::textarea('des2', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Sales Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('sales', 'Sales:') !!}
+    {!! Form::number('sales', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Time Sales Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('time_sales', 'Time Sales:') !!}
+    {!! Form::date('time_sales', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Time Out Sales Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('time_out_sales', 'Time Out Sales:') !!}
+    {!! Form::date('time_out_sales', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Submit Field -->
