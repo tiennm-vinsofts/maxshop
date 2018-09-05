@@ -4,10 +4,74 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f8a6980228a76ee403b7235596a1a60",
-    "content-hash": "767d797ffd59522197ad1b617a9b8a67",
+  "hash": "d493e204517fada4ad3e92be18f83b00",
+  "content-hash": "dcac835aabe2cb5ddac72b36856a4550",
     "packages": [
         {
+          "name": "darkaonline/l5-swagger",
+          "version": "5.6.9",
+          "source": {
+            "type": "git",
+            "url": "https://github.com/DarkaOnLine/L5-Swagger.git",
+            "reference": "3eaba4d034c719f8b1250eb1a8dbb3f41504cb4f"
+          },
+          "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DarkaOnLine/L5-Swagger/zipball/3eaba4d034c719f8b1250eb1a8dbb3f41504cb4f",
+            "reference": "3eaba4d034c719f8b1250eb1a8dbb3f41504cb4f",
+            "shasum": ""
+          },
+          "require": {
+            "laravel/framework": "5.6.*",
+            "php": ">=7.1.3",
+            "swagger-api/swagger-ui": "^3.0",
+            "symfony/yaml": "^4.1",
+            "zircote/swagger-php": "~2.0|3.*"
+          },
+          "require-dev": {
+            "mockery/mockery": "1.*",
+            "orchestra/testbench": "3.6.*",
+            "php-coveralls/php-coveralls": "^2.0",
+            "phpunit/phpunit": "7.*"
+          },
+          "suggest": {
+            "zircote/swagger-php:~2.0": "!!! Require Swagger-PHP ~2.0 for @SWG annotations support !!!"
+          },
+          "type": "library",
+          "extra": {
+            "laravel": {
+              "providers": [
+                "L5Swagger\\L5SwaggerServiceProvider"
+              ]
+            }
+          },
+          "autoload": {
+            "psr-4": {
+              "L5Swagger\\": "src"
+            },
+            "files": [
+              "src/helpers.php"
+            ]
+          },
+          "notification-url": "https://packagist.org/downloads/",
+          "license": [
+            "MIT"
+          ],
+          "authors": [
+            {
+              "name": "Darius Matulionis",
+              "email": "darius@matulionis.lt"
+            }
+          ],
+          "description": "Swagger integration to Laravel 5",
+          "keywords": [
+            "api",
+            "laravel",
+            "swagger"
+          ],
+          "time": "2018-08-23 07:42:58"
+        },
+      {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
             "source": {
@@ -1053,16 +1117,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.6.35",
+          "version": "v5.6.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "02abbe2091404ebe032a6d5a83075031b7072ebe"
+              "reference": "38d838bab9434af79e8ab274ae63f52f7ed45d6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/02abbe2091404ebe032a6d5a83075031b7072ebe",
-                "reference": "02abbe2091404ebe032a6d5a83075031b7072ebe",
+              "url": "https://api.github.com/repos/laravel/framework/zipball/38d838bab9434af79e8ab274ae63f52f7ed45d6e",
+              "reference": "38d838bab9434af79e8ab274ae63f52f7ed45d6e",
                 "shasum": ""
             },
             "require": {
@@ -1188,7 +1252,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-08-27 13:18:24"
+          "time": "2018-09-04 13:15:09"
         },
         {
             "name": "laravel/tinker",
@@ -2099,6 +2163,63 @@
             "time": "2018-07-19 23:38:55"
         },
         {
+          "name": "swagger-api/swagger-ui",
+          "version": "v3.18.2",
+          "source": {
+            "type": "git",
+            "url": "https://github.com/swagger-api/swagger-ui.git",
+            "reference": "00432fc07ccffdd1304a920e610edb14478b7553"
+          },
+          "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/00432fc07ccffdd1304a920e610edb14478b7553",
+            "reference": "00432fc07ccffdd1304a920e610edb14478b7553",
+            "shasum": ""
+          },
+          "type": "library",
+          "notification-url": "https://packagist.org/downloads/",
+          "license": [
+            "Apache-2.0"
+          ],
+          "authors": [
+            {
+              "name": "Anna Bodnia",
+              "email": "anna.bodnia@gmail.com"
+            },
+            {
+              "name": "Buu Nguyen",
+              "email": "buunguyen@gmail.com"
+            },
+            {
+              "name": "Josh Ponelat",
+              "email": "jponelat@gmail.com"
+            },
+            {
+              "name": "Kyle Shockey",
+              "email": "kyleshockey1@gmail.com"
+            },
+            {
+              "name": "Robert Barnwell",
+              "email": "robert@robertismy.name"
+            },
+            {
+              "name": "Sahar Jafari",
+              "email": "shr.jafari@gmail.com"
+            }
+          ],
+          "description": " Swagger UI is a collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.",
+          "homepage": "http://swagger.io",
+          "keywords": [
+            "api",
+            "documentation",
+            "openapi",
+            "specification",
+            "swagger",
+            "ui"
+          ],
+          "time": "2018-08-23 22:24:32"
+        },
+      {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.1.2",
             "source": {
@@ -3358,36 +3479,35 @@
         },
         {
             "name": "zircote/swagger-php",
-            "version": "3.0.0",
+          "version": "2.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "67f517375c0c8180bf2c09dbad6f305524cff2ab"
+              "reference": "8b42fdc3d8c5a5e0d1f8d344aa359822c9f085e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/67f517375c0c8180bf2c09dbad6f305524cff2ab",
-                "reference": "67f517375c0c8180bf2c09dbad6f305524cff2ab",
+              "url": "https://api.github.com/repos/zircote/swagger-php/zipball/8b42fdc3d8c5a5e0d1f8d344aa359822c9f085e0",
+              "reference": "8b42fdc3d8c5a5e0d1f8d344aa359822c9f085e0",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "*",
-                "php": ">=7.0",
-                "symfony/finder": ">=2.2",
-                "symfony/yaml": ">=2.8"
+              "php": ">=5.6",
+              "symfony/finder": ">=2.2"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=6.3",
-                "squizlabs/php_codesniffer": ">=3.3",
+              "phpunit/phpunit": ">=4.8.35 <=5.6",
+              "squizlabs/php_codesniffer": ">=2.7",
                 "zendframework/zend-form": "<2.8"
             },
             "bin": [
-                "bin/openapi"
+              "bin/swagger"
             ],
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "OpenApi\\": "src"
+                  "Swagger\\": "src"
                 },
                 "files": [
                     "src/functions.php"
@@ -3395,7 +3515,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "Apache-2.0"
+              "Apache2"
             ],
             "authors": [
                 {
@@ -3409,7 +3529,7 @@
                     "homepage": "http://bfanger.nl"
                 }
             ],
-            "description": "swagger-php - Generate interactive documentation for your RESTful API using phpdoc annotations",
+          "description": "Swagger-PHP - Generate interactive documentation for your RESTful API using phpdoc annotations",
             "homepage": "https://github.com/zircote/swagger-php/",
             "keywords": [
                 "api",
@@ -3417,7 +3537,7 @@
                 "rest",
                 "service discovery"
             ],
-            "time": "2018-08-16 06:06:29"
+          "time": "2017-12-01 09:22:05"
         }
     ],
     "packages-dev": [
@@ -4379,16 +4499,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.3.2",
+          "version": "7.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "34705f81bddc3f505b9599a2ef96e2b4315ba9b8"
+              "reference": "1bd5629cccfb2c0a9ef5474b4ff772349e1ec898"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/34705f81bddc3f505b9599a2ef96e2b4315ba9b8",
-                "reference": "34705f81bddc3f505b9599a2ef96e2b4315ba9b8",
+              "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1bd5629cccfb2c0a9ef5474b4ff772349e1ec898",
+              "reference": "1bd5629cccfb2c0a9ef5474b4ff772349e1ec898",
                 "shasum": ""
             },
             "require": {
@@ -4459,7 +4579,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-08-22 06:39:21"
+          "time": "2018-09-01 15:49:55"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
