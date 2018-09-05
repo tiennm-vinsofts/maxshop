@@ -82,3 +82,5 @@ L5_SWAGGER_GENERATE_ALWAYS=true
  php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
  
  l5-swagger:generate
+ 
+ composer dump-autoload

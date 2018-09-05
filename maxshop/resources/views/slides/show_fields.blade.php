@@ -19,7 +19,7 @@
 <!-- Img Field -->
 <div class="form-group">
     {!! Form::label('img', 'Img:') !!}
-    <p>{!! $slide->img !!}</p>
+    {{ Html::image($slide->img,'anh',['class'=>'img-responsive']) }}
 </div>
 
 <!-- Des Field -->

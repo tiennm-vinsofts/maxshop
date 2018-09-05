@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
             MockDataUserTableSeeder::class,
             MockDataCategoryTableSeeder::class,
             MockDataCountryTableSeeder::class,
+            MockDataProductTableSeeder::class,
         ]);
         DB::statement('SET FOREIGN_KEY_CHECKS = 1');
     }
