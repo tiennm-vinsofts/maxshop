@@ -1,5 +1,5 @@
 const config = {
-    urlsever : "http://127.0.0.1:8000/",
-    urlapi : "http://127.0.0.1:8000/api/"
+    urlsever: "http://192.168.1.23/maxshop/maxshop/public/",
+    urlapi: "http://192.168.1.23/maxshop/maxshop/public/index.php/api/"
 };
 export default config;
